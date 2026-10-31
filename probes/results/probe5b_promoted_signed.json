@@ -1,0 +1,80 @@
+[
+  {
+    "a": "price_total",
+    "b": "freight_total",
+    "signed_strength": 0.4270123008454807,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "price_total",
+    "b": "payment_value",
+    "signed_strength": 0.9965143916346363,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "price_total",
+    "b": "installments_max",
+    "signed_strength": 0.309238789955342,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "freight_total",
+    "b": "payment_value",
+    "signed_strength": 0.4996713437808443,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "freight_total",
+    "b": "n_items",
+    "signed_strength": 0.4343406761064419,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "freight_total",
+    "b": "installments_max",
+    "signed_strength": 0.20367954640112176,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "payment_value",
+    "b": "installments_max",
+    "signed_strength": 0.3152635269322047,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "review_score",
+    "b": "delivery_days",
+    "signed_strength": -0.33311084691570997,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "review_score",
+    "b": "delay_days",
+    "signed_strength": -0.2684149429344048,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "review_score",
+    "b": "comment_len",
+    "signed_strength": -0.36874789135467057,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "delivery_days",
+    "b": "delay_days",
+    "signed_strength": 0.5840360653985686,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "comment_len",
+    "b": "has_comment",
+    "signed_strength": 0.5421807794810548,
+    "persistence_share_fixed": 1.0
+  },
+  {
+    "a": "text_tfidf",
+    "b": "review_band",
+    "signed_strength": 0.41269467491307393,
+    "persistence_share_fixed": 1.0
+  }
+]

@@ -1,0 +1,21 @@
+[validation] facade 30 clustered pairs: max|dS|=1.041e-16 max|dp|=1.910e-14; kernels vs scalar: max|dS|=6.080e-16 counts_agree=True; pass=True
+[validation] elapsed 1.3s (total 1.6s)
+[cal P_primary_20x10] num_num K_half=10: k=13178/50000 gamma_cl=0.26356 U_sim=0.268306
+[cal P_primary_20x10] cat3x3 K_half=10: k=4906/50000 gamma_cl=0.09812 U_sim=0.101348
+[cal P_primary_20x10] cat2x2 K_half=10: k=3575/50000 gamma_cl=0.0715 U_sim=0.0743044
+[cal P_primary_20x10] cat3x2 K_half=10: k=7158/50000 gamma_cl=0.14316 U_sim=0.146949
+[cal P_primary_20x10] numcat_g3 K_half=10: k=127/50000 gamma_cl=0.00254 U_sim=0.00313214
+[cal P_primary_20x10] numcat_g2 K_half=10: k=35/50000 gamma_cl=0.0007 U_sim=0.00103828
+[cal S_sens_40x5] num_num K_half=20: k=7872/50000 gamma_cl=0.15744 U_sim=0.161378
+[cal S_sens_40x5] cat3x3 K_half=20: k=2358/50000 gamma_cl=0.04716 U_sim=0.0494775
+[cal S_sens_40x5] cat2x2 K_half=20: k=2360/50000 gamma_cl=0.0472 U_sim=0.0495184
+[cal S_sens_40x5] cat3x2 K_half=20: k=4709/50000 gamma_cl=0.09418 U_sim=0.0973509
+[cal S_sens_40x5] numcat_g3 K_half=20: k=16/50000 gamma_cl=0.00032 U_sim=0.000568316
+[cal S_sens_40x5] numcat_g2 K_half=20: k=6/50000 gamma_cl=0.00012 U_sim=0.000297194
+[calibration] elapsed 6.8s (total 8.4s)
+[worlds P cluster split] meanV=9.367 P3mean=21.233 Cpt=20.898 CU=21.695
+[worlds P row split, descriptive] meanV=15.300 P3mean=16.217
+[primary worlds] elapsed 6.1s (total 14.5s)
+[worlds S cluster split] meanV=2.000 P3mean=7.040 Cpt=7.534 CU=7.932
+[sensitivity worlds] elapsed 2.4s (total 16.8s)
+ALL DONE in 16.8s

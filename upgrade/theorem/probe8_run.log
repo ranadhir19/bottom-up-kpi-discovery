@@ -1,0 +1,42 @@
+[validation] facade: 30 pairs max|dS|=2.776e-17 max|dp|=4.891e-14; engine: max|dS|=2.220e-16 max|dp|=7.772e-16; pass=True
+[cal] num_num total_n=60 half=30: k=14434/50000 gamma_hat=0.28868 U_sim=0.294664
+[cal] cat3x3 total_n=60 half=30: k=9106/50000 gamma_hat=0.18212 U_sim=0.187235
+[cal] cat2x2 total_n=60 half=30: k=7242/50000 gamma_hat=0.14484 U_sim=0.149513
+[cal] cat3x2 total_n=60 half=30: k=10866/50000 gamma_hat=0.21732 U_sim=0.222778
+[cal] numcat_g3 total_n=60 half=30: k=894/50000 gamma_hat=0.01788 U_sim=0.019689
+[cal] numcat_g2 total_n=60 half=30: k=348/50000 gamma_hat=0.00696 U_sim=0.00812282
+[cal] num_num total_n=100 half=50: k=8207/50000 gamma_hat=0.16414 U_sim=0.169053
+[cal] cat3x3 total_n=100 half=50: k=4794/50000 gamma_hat=0.09588 U_sim=0.0998041
+[cal] cat2x2 total_n=100 half=50: k=4300/50000 gamma_hat=0.086 U_sim=0.0897407
+[cal] cat3x2 total_n=100 half=50: k=6863/50000 gamma_hat=0.13726 U_sim=0.141831
+[cal] numcat_g3 total_n=100 half=50: k=88/50000 gamma_hat=0.00176 U_sim=0.00238405
+[cal] numcat_g2 total_n=100 half=50: k=29/50000 gamma_hat=0.00058 U_sim=0.000972395
+[cal] num_num total_n=200 half=100: k=2263/50000 gamma_hat=0.04526 U_sim=0.0480544
+[cal] cat3x3 total_n=200 half=100: k=900/50000 gamma_hat=0.018 U_sim=0.0198147
+[cal] cat2x2 total_n=200 half=100: k=1212/50000 gamma_hat=0.02424 U_sim=0.0263274
+[cal] cat3x2 total_n=200 half=100: k=2514/50000 gamma_hat=0.05028 U_sim=0.0532135
+[cal] numcat_g3 total_n=200 half=100: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] numcat_g2 total_n=200 half=100: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] num_num total_n=500 half=250: k=90/50000 gamma_hat=0.0018 U_sim=0.00243021
+[cal] cat3x3 total_n=500 half=250: k=5/50000 gamma_hat=0.0001 U_sim=0.000314715
+[cal] cat2x2 total_n=500 half=250: k=44/50000 gamma_hat=0.00088 U_sim=0.00134451
+[cal] cat3x2 total_n=500 half=250: k=125/50000 gamma_hat=0.0025 U_sim=0.00322873
+[cal] numcat_g3 total_n=500 half=250: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] numcat_g2 total_n=500 half=250: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] num_num total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] cat3x3 total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] cat2x2 total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] cat3x2 total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] numcat_g3 total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[cal] numcat_g2 total_n=1000 half=500: k=0/50000 gamma_hat=0 U_sim=0.00012793
+[calibration] elapsed 98.0s (total 105.5s)
+[null n=60] meanV=0.0000 FWER=0.000 P3mean=26.980 cert=28.8351
+[null n=100] meanV=0.0200 FWER=0.020 P3mean=10.160 cert=9.6809
+[null n=500] meanV=0.0000 FWER=0.000 P3mean=0.000 cert=0.0024
+[null worlds] elapsed 48.6s (total 154.1s)
+[planted] meanFDP=0.0000 power=0.750 meanFalse=0.000 cert_null=0.0038
+[planted worlds] elapsed 13.8s (total 167.9s)
+[cluster random_row_split] meanV=14.780 P3mean=15.440 halfExc=0.0711 cert=0.8490
+[cluster cluster_level_split] meanV=8.940 P3mean=20.720 halfExc=0.1114 cert=0.8490
+[cluster stress] elapsed 22.4s (total 190.3s)
+ALL DONE in 190.3s

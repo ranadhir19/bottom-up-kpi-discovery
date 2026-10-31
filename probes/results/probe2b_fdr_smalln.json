@@ -1,0 +1,40 @@
+{
+  "null_n=60": {
+    "R0": {
+      "mean": 97.9,
+      "max": 114
+    },
+    "R1": {
+      "mean": 42.3,
+      "max": 48
+    },
+    "R3": {
+      "mean": 0.0,
+      "max": 0
+    },
+    "R4": {
+      "mean": 0.0,
+      "max": 0
+    }
+  },
+  "plant_detection_R4": {
+    "pcat_c & pcat_d": {
+      "detected": "5/5"
+    },
+    "pcat_e & pcat_f": {
+      "detected": "4/5"
+    },
+    "pcat_a & pnum_e": {
+      "detected": "5/5"
+    },
+    "pcat_b & pnum_f": {
+      "detected": "0/5"
+    },
+    "pnum_c & pnum_d": {
+      "detected": "5/5"
+    },
+    "pnum_a & pnum_b": {
+      "detected": "5/5"
+    }
+  }
+}

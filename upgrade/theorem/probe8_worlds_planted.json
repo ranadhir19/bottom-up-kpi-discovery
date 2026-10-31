@@ -1,0 +1,197 @@
+{
+  "n": 500,
+  "worlds": 20,
+  "columns": 52,
+  "pairs": 1326,
+  "null_pairs": 1320,
+  "plants": 6,
+  "design_note": "probe2_fdr.py planted_columns() as written builds 52 columns / 1326 pairs, not the 46 / 1035 of its docstring and the manuscript table; this probe follows the code.",
+  "plant_conditional_probs": {
+    "p_for_V0.45": 0.6333333333333333,
+    "p_for_V0.25": 0.5
+  },
+  "data_seed_base": 840000,
+  "split_seed_base": 850000,
+  "per_world": [
+    {
+      "world": 0,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 1,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 2,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 3,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 4,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 5,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 6,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 7,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 8,
+      "promoted": 3,
+      "false": 0,
+      "plants_found": 3,
+      "fdp": 0.0,
+      "power": 0.5
+    },
+    {
+      "world": 9,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 10,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 11,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 12,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 13,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 14,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 15,
+      "promoted": 3,
+      "false": 0,
+      "plants_found": 3,
+      "fdp": 0.0,
+      "power": 0.5
+    },
+    {
+      "world": 16,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 17,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    },
+    {
+      "world": 18,
+      "promoted": 4,
+      "false": 0,
+      "plants_found": 4,
+      "fdp": 0.0,
+      "power": 0.6666666666666666
+    },
+    {
+      "world": 19,
+      "promoted": 5,
+      "false": 0,
+      "plants_found": 5,
+      "fdp": 0.0,
+      "power": 0.8333333333333334
+    }
+  ],
+  "mean_fdp": 0.0,
+  "mean_power": 0.7500000000000001,
+  "mean_false": 0.0,
+  "plant_detection_counts": {
+    "pnum_a & pnum_b": 20,
+    "pnum_c & pnum_d": 20,
+    "pcat_a & pnum_e": 16,
+    "pcat_c & pcat_d": 20,
+    "pcat_e & pcat_f": 14
+  },
+  "certificate_EV_upper_null_pairs_only": 0.003795027203515182,
+  "certificate_null_pair_counts_by_cell": {
+    "num_num": 433,
+    "numcat_g3": 418,
+    "numcat_g2": 240,
+    "cat3x3": 89,
+    "cat3x2": 112,
+    "cat2x2": 28
+  },
+  "mean_false_le_certificate": true
+}

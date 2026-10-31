@@ -1,0 +1,6848 @@
+{
+  "olist": {
+    "dataset": "olist",
+    "family_pairs": 107,
+    "control_pairs_in_family": 27,
+    "max_stability_freq_among_controls": 0.0,
+    "paper_set_matches_probe_reference": true,
+    "paper_reference_count": 13,
+    "paper_recomputed_count": 13,
+    "per_rule": {
+      "paper_conjoint": {
+        "promoted_count": 13,
+        "overlap_with_paper": 13,
+        "promoted_pairs": [
+          [
+            "comment_len",
+            "has_comment"
+          ],
+          [
+            "comment_len",
+            "review_score"
+          ],
+          [
+            "delay_days",
+            "delivery_days"
+          ],
+          [
+            "delay_days",
+            "review_score"
+          ],
+          [
+            "delivery_days",
+            "review_score"
+          ],
+          [
+            "freight_total",
+            "installments_max"
+          ],
+          [
+            "freight_total",
+            "n_items"
+          ],
+          [
+            "freight_total",
+            "payment_value"
+          ],
+          [
+            "freight_total",
+            "price_total"
+          ],
+          [
+            "installments_max",
+            "payment_value"
+          ],
+          [
+            "installments_max",
+            "price_total"
+          ],
+          [
+            "payment_value",
+            "price_total"
+          ],
+          [
+            "review_band",
+            "text_tfidf"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "cpss_pi090": {
+        "promoted_count": 12,
+        "overlap_with_paper": 12,
+        "promoted_pairs": [
+          [
+            "comment_len",
+            "has_comment"
+          ],
+          [
+            "comment_len",
+            "review_score"
+          ],
+          [
+            "delay_days",
+            "delivery_days"
+          ],
+          [
+            "delay_days",
+            "review_score"
+          ],
+          [
+            "delivery_days",
+            "review_score"
+          ],
+          [
+            "freight_total",
+            "n_items"
+          ],
+          [
+            "freight_total",
+            "payment_value"
+          ],
+          [
+            "freight_total",
+            "price_total"
+          ],
+          [
+            "installments_max",
+            "payment_value"
+          ],
+          [
+            "installments_max",
+            "price_total"
+          ],
+          [
+            "payment_value",
+            "price_total"
+          ],
+          [
+            "review_band",
+            "text_tfidf"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [
+          {
+            "a": "freight_total",
+            "b": "installments_max",
+            "frame": "main",
+            "strength_corr": 0.20367954640112176,
+            "stability_freq": 0.68,
+            "p": 2.4913309248845933e-232
+          }
+        ],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "cpss_pi080": {
+        "promoted_count": 12,
+        "overlap_with_paper": 12,
+        "promoted_pairs": [
+          [
+            "comment_len",
+            "has_comment"
+          ],
+          [
+            "comment_len",
+            "review_score"
+          ],
+          [
+            "delay_days",
+            "delivery_days"
+          ],
+          [
+            "delay_days",
+            "review_score"
+          ],
+          [
+            "delivery_days",
+            "review_score"
+          ],
+          [
+            "freight_total",
+            "n_items"
+          ],
+          [
+            "freight_total",
+            "payment_value"
+          ],
+          [
+            "freight_total",
+            "price_total"
+          ],
+          [
+            "installments_max",
+            "payment_value"
+          ],
+          [
+            "installments_max",
+            "price_total"
+          ],
+          [
+            "payment_value",
+            "price_total"
+          ],
+          [
+            "review_band",
+            "text_tfidf"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [
+          {
+            "a": "freight_total",
+            "b": "installments_max",
+            "frame": "main",
+            "strength_corr": 0.20367954640112176,
+            "stability_freq": 0.68,
+            "p": 2.4913309248845933e-232
+          }
+        ],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "hybrid_pi090_bh": {
+        "promoted_count": 12,
+        "overlap_with_paper": 12,
+        "promoted_pairs": [
+          [
+            "comment_len",
+            "has_comment"
+          ],
+          [
+            "comment_len",
+            "review_score"
+          ],
+          [
+            "delay_days",
+            "delivery_days"
+          ],
+          [
+            "delay_days",
+            "review_score"
+          ],
+          [
+            "delivery_days",
+            "review_score"
+          ],
+          [
+            "freight_total",
+            "n_items"
+          ],
+          [
+            "freight_total",
+            "payment_value"
+          ],
+          [
+            "freight_total",
+            "price_total"
+          ],
+          [
+            "installments_max",
+            "payment_value"
+          ],
+          [
+            "installments_max",
+            "price_total"
+          ],
+          [
+            "payment_value",
+            "price_total"
+          ],
+          [
+            "review_band",
+            "text_tfidf"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [
+          {
+            "a": "freight_total",
+            "b": "installments_max",
+            "frame": "main",
+            "strength_corr": 0.20367954640112176,
+            "stability_freq": 0.68,
+            "p": 2.4913309248845933e-232
+          }
+        ],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      }
+    },
+    "pair_table": [
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "freight_total",
+        "method": "pearson_r",
+        "strength_corr": 0.4270123008454807,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "payment_value",
+        "method": "pearson_r",
+        "strength_corr": 0.9965143916346363,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "n_items",
+        "method": "pearson_r",
+        "strength_corr": 0.16513467295952855,
+        "p": 2.531771081629413e-152,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.01,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "installments_max",
+        "method": "pearson_r",
+        "strength_corr": 0.309238789955342,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "review_score",
+        "method": "pearson_r",
+        "strength_corr": 0.03145806236408501,
+        "p": 6.526823671939216e-07,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.043466883860923455,
+        "p": 6.17192679066996e-12,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.023616787429187856,
+        "p": 0.0001881063765027608,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.05305765230160416,
+        "p": 4.673047479716055e-17,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.000676543201284065,
+        "p": 0.9148163210237564,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 9.050187724226908e-05,
+        "p": 0.9885835489640942,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.002451768901365533,
+        "p": 6.863714369852569e-14,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.0049764323768449765,
+        "p": 1.5985590132373659e-19,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 6.784864393722188e-05,
+        "p": 0.2612505102637813,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "price_total",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.0010714938060588377,
+        "p": 1.3452208149959165e-07,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "payment_value",
+        "method": "pearson_r",
+        "strength_corr": 0.4996713437808443,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "n_items",
+        "method": "pearson_r",
+        "strength_corr": 0.4343406761064419,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "installments_max",
+        "method": "pearson_r",
+        "strength_corr": 0.20367954640112176,
+        "p": 2.4913309248845933e-232,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.68,
+        "paper": true,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "review_score",
+        "method": "pearson_r",
+        "strength_corr": 0.09139182002929909,
+        "p": 1.6232651656877646e-47,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.17507614469123167,
+        "p": 2.958931872458793e-171,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.05240424048112194,
+        "p": 1.1218654899278135e-16,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.07399361740977375,
+        "p": 1.0692508894468135e-31,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.002079441069138124,
+        "p": 0.7423277127638368,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.010846161657214703,
+        "p": 0.08636476862466103,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0007140852939079529,
+        "p": 0.00011274716379189118,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.09493066974848645,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5216456058817454,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "freight_total",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.003804385817348547,
+        "p": 9.946791740589913e-23,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "n_items",
+        "method": "pearson_r",
+        "strength_corr": 0.19864299987582595,
+        "p": 7.422964002668086e-221,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.48,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "installments_max",
+        "method": "pearson_r",
+        "strength_corr": 0.3152635269322047,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "review_score",
+        "method": "pearson_r",
+        "strength_corr": 0.0387124782471008,
+        "p": 9.184741546139322e-10,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.05799283633127788,
+        "p": 4.443502505212996e-20,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.02755419012183892,
+        "p": 1.3167107885613415e-05,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.0577698924607642,
+        "p": 6.164910795665317e-20,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.0007358641243874184,
+        "p": 0.9073794936622948,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.0010100833553713677,
+        "p": 0.8731171987380123,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0024042228889588463,
+        "p": 1.2340649863505233e-13,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.009073027734218673,
+        "p": 3.201383819456189e-39,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 5.39092685009695e-05,
+        "p": 0.28991835952794187,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_value",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.001392984674139576,
+        "p": 2.1346243560579593e-09,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "installments_max",
+        "method": "pearson_r",
+        "strength_corr": 0.05685427907042743,
+        "p": 2.334992197731899e-19,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "review_score",
+        "method": "pearson_r",
+        "strength_corr": 0.11873335890267174,
+        "p": 3.6087752575661035e-79,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.01678727793434622,
+        "p": 0.007945994512397128,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.021614520929391007,
+        "p": 0.000631331440530728,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.07598262445441839,
+        "p": 2.450714756048594e-33,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.0011621280055644655,
+        "p": 0.8542178623286513,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.00028795335665902894,
+        "p": 0.9636871365415346,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0009102561239611877,
+        "p": 1.0684579991312049e-05,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.00010167848740241297,
+        "p": 0.33242800868102257,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.0001451074372193837,
+        "p": 0.14125831036647843,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "n_items",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.004561881037514139,
+        "p": 6.761315230408025e-27,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "review_score",
+        "method": "pearson_r",
+        "strength_corr": 0.027444791207364178,
+        "p": 1.4248080073984168e-05,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.052859982975197846,
+        "p": 6.097432319027652e-17,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.030972489631381994,
+        "p": 9.676249311164856e-07,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.042889971104225086,
+        "p": 1.1666486134488229e-11,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.010072931972776788,
+        "p": 0.11124296075968987,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.014264260139882681,
+        "p": 0.02410951713711389,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.1634064195654317,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.009576183102268137,
+        "p": 1.0044538394442645e-41,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.001525563509643778,
+        "p": 6.865386253346458e-08,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "installments_max",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.0016567660095417197,
+        "p": 7.247643970232453e-11,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "delivery_days",
+        "method": "pearson_r",
+        "strength_corr": 0.33311084691570997,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.2684149429344048,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.36874789135467057,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.0046994998369997276,
+        "p": 0.4574676852605615,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.0005623320247260846,
+        "p": 0.929154976961827,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7337688281382175,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.005992207210179003,
+        "p": 2.926057660085939e-24,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.0006372192916216687,
+        "p": 0.001245311042416562,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.07020649003332317,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "delay_days",
+        "method": "pearson_r",
+        "strength_corr": 0.5840360653985686,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.10516555239412198,
+        "p": 2.0409164955093362e-62,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.010871890197154975,
+        "p": 0.08562136078238303,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.0011185015531574244,
+        "p": 0.8596326262977734,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0028504238484611693,
+        "p": 4.98104034043551e-16,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.17892560072652575,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.005,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.005068933934418203,
+        "p": 2.963575767162752e-26,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delivery_days",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.00781203441507487,
+        "p": 9.169162615570234e-45,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "comment_len",
+        "method": "pearson_r",
+        "strength_corr": 0.05320354028954449,
+        "p": 3.8375245363466306e-17,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.0024150060774821977,
+        "p": 0.7025893547189286,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.01091051403662605,
+        "p": 0.08451507040038975,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0011183113091002164,
+        "p": 8.622891120816902e-07,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.016039474621636598,
+        "p": 9.087749737279928e-75,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.0012562601091549352,
+        "p": 1.4575360449580314e-06,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "delay_days",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.001726496374022069,
+        "p": 2.969240667050217e-11,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.0018540950977762745,
+        "p": 0.7694122626245895,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.002565399187333564,
+        "p": 0.6850324042758587,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5183142029513146,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.0037037541820318315,
+        "p": 8.298757224727985e-14,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.00024321854214809282,
+        "p": 0.06020793224617831,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "comment_len",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.5421807794810548,
+        "p": 0.0,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "review_score_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.01021965794686471,
+        "p": 0.10613081455462026,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 5.5751226595411666e-05,
+        "p": 0.22198325716233935,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 5.326405781123451e-05,
+        "p": 0.3921983980149002,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 9.355565092714283e-05,
+        "p": 0.2143455044773951,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5116747658295939,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score_perm",
+        "b": "payment_type",
+        "method": "eta_squared",
+        "strength_corr": 0.00019426037944240702,
+        "p": 0.04907514812654049,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score_perm",
+        "b": "customer_state",
+        "method": "eta_squared",
+        "strength_corr": 0.00015208730808605986,
+        "p": 0.2760091422018346,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score_perm",
+        "b": "purchase_dow",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9965988982425343,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "review_score_perm",
+        "b": "has_comment",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6698910186579712,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_type",
+        "b": "customer_state",
+        "method": "cramers_v",
+        "strength_corr": 0.04158381404051585,
+        "p": 1.0014907713813042e-13,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_type",
+        "b": "purchase_dow",
+        "method": "cramers_v",
+        "strength_corr": 0.03800214786973869,
+        "p": 2.6884861686504804e-18,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "payment_type",
+        "b": "has_comment",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.9921177035092207,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "customer_state",
+        "b": "purchase_dow",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.9251978400987312,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "customer_state",
+        "b": "has_comment",
+        "method": "cramers_v",
+        "strength_corr": 0.07037184045993304,
+        "p": 2.286496914289329e-19,
+        "n": 25000,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "purchase_dow",
+        "b": "has_comment",
+        "method": "cramers_v",
+        "strength_corr": 0.01228684099274899,
+        "p": 0.13448641402554332,
+        "n": 25000,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "text",
+        "a": "text_tfidf",
+        "b": "review_band",
+        "method": "cramers_v",
+        "strength_corr": 0.41269467491307393,
+        "p": 0.0,
+        "n": 9378,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "text",
+        "a": "text_tfidf",
+        "b": "payment_type",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.7136687796553483,
+        "n": 9378,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      }
+    ],
+    "cpss_runtime_seconds": 37.96022081375122,
+    "total_runtime_seconds": 44.73732280731201,
+    "analysis_rows_full": 95823,
+    "analysis_rows_used": 25000,
+    "commented_subset_rows": 9378
+  },
+  "telco": {
+    "dataset": "telco",
+    "family_pairs": 231,
+    "control_pairs_in_family": 41,
+    "max_stability_freq_among_controls": 0.0,
+    "paper_set_matches_probe_reference": true,
+    "paper_reference_count": 88,
+    "paper_recomputed_count": 88,
+    "per_rule": {
+      "paper_conjoint": {
+        "promoted_count": 88,
+        "overlap_with_paper": 88,
+        "promoted_pairs": [
+          [
+            "Churn",
+            "Contract"
+          ],
+          [
+            "Churn",
+            "DeviceProtection"
+          ],
+          [
+            "Churn",
+            "InternetService"
+          ],
+          [
+            "Churn",
+            "OnlineBackup"
+          ],
+          [
+            "Churn",
+            "OnlineSecurity"
+          ],
+          [
+            "Churn",
+            "PaymentMethod"
+          ],
+          [
+            "Churn",
+            "StreamingMovies"
+          ],
+          [
+            "Churn",
+            "StreamingTV"
+          ],
+          [
+            "Churn",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "Dependents"
+          ],
+          [
+            "Contract",
+            "DeviceProtection"
+          ],
+          [
+            "Contract",
+            "InternetService"
+          ],
+          [
+            "Contract",
+            "OnlineBackup"
+          ],
+          [
+            "Contract",
+            "OnlineSecurity"
+          ],
+          [
+            "Contract",
+            "Partner"
+          ],
+          [
+            "Contract",
+            "PaymentMethod"
+          ],
+          [
+            "Contract",
+            "StreamingMovies"
+          ],
+          [
+            "Contract",
+            "StreamingTV"
+          ],
+          [
+            "Contract",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "TotalCharges"
+          ],
+          [
+            "Contract",
+            "tenure"
+          ],
+          [
+            "Dependents",
+            "Partner"
+          ],
+          [
+            "DeviceProtection",
+            "InternetService"
+          ],
+          [
+            "DeviceProtection",
+            "MonthlyCharges"
+          ],
+          [
+            "DeviceProtection",
+            "MultipleLines"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineBackup"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineSecurity"
+          ],
+          [
+            "DeviceProtection",
+            "PaperlessBilling"
+          ],
+          [
+            "DeviceProtection",
+            "PaymentMethod"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingMovies"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingTV"
+          ],
+          [
+            "DeviceProtection",
+            "TechSupport"
+          ],
+          [
+            "DeviceProtection",
+            "TotalCharges"
+          ],
+          [
+            "InternetService",
+            "MonthlyCharges"
+          ],
+          [
+            "InternetService",
+            "MultipleLines"
+          ],
+          [
+            "InternetService",
+            "OnlineBackup"
+          ],
+          [
+            "InternetService",
+            "OnlineSecurity"
+          ],
+          [
+            "InternetService",
+            "PaperlessBilling"
+          ],
+          [
+            "InternetService",
+            "PaymentMethod"
+          ],
+          [
+            "InternetService",
+            "PhoneService"
+          ],
+          [
+            "InternetService",
+            "SeniorCitizen"
+          ],
+          [
+            "InternetService",
+            "StreamingMovies"
+          ],
+          [
+            "InternetService",
+            "StreamingTV"
+          ],
+          [
+            "InternetService",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "MultipleLines"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineBackup"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineSecurity"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingMovies"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingTV"
+          ],
+          [
+            "MonthlyCharges",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "TotalCharges"
+          ],
+          [
+            "MonthlyCharges",
+            "tenure"
+          ],
+          [
+            "MultipleLines",
+            "OnlineBackup"
+          ],
+          [
+            "MultipleLines",
+            "OnlineSecurity"
+          ],
+          [
+            "MultipleLines",
+            "PhoneService"
+          ],
+          [
+            "MultipleLines",
+            "StreamingMovies"
+          ],
+          [
+            "MultipleLines",
+            "StreamingTV"
+          ],
+          [
+            "MultipleLines",
+            "TechSupport"
+          ],
+          [
+            "MultipleLines",
+            "TotalCharges"
+          ],
+          [
+            "OnlineBackup",
+            "OnlineSecurity"
+          ],
+          [
+            "OnlineBackup",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineBackup",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingTV"
+          ],
+          [
+            "OnlineBackup",
+            "TechSupport"
+          ],
+          [
+            "OnlineBackup",
+            "TotalCharges"
+          ],
+          [
+            "OnlineSecurity",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineSecurity",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineSecurity",
+            "SeniorCitizen"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingTV"
+          ],
+          [
+            "OnlineSecurity",
+            "TechSupport"
+          ],
+          [
+            "OnlineSecurity",
+            "TotalCharges"
+          ],
+          [
+            "PaperlessBilling",
+            "PaymentMethod"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingMovies"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingTV"
+          ],
+          [
+            "PaperlessBilling",
+            "TechSupport"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingMovies"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingTV"
+          ],
+          [
+            "PaymentMethod",
+            "TechSupport"
+          ],
+          [
+            "SeniorCitizen",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "StreamingTV"
+          ],
+          [
+            "StreamingMovies",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "TotalCharges"
+          ],
+          [
+            "StreamingTV",
+            "TechSupport"
+          ],
+          [
+            "StreamingTV",
+            "TotalCharges"
+          ],
+          [
+            "TechSupport",
+            "TotalCharges"
+          ],
+          [
+            "TotalCharges",
+            "tenure"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "cpss_pi090": {
+        "promoted_count": 86,
+        "overlap_with_paper": 86,
+        "promoted_pairs": [
+          [
+            "Churn",
+            "Contract"
+          ],
+          [
+            "Churn",
+            "DeviceProtection"
+          ],
+          [
+            "Churn",
+            "InternetService"
+          ],
+          [
+            "Churn",
+            "OnlineBackup"
+          ],
+          [
+            "Churn",
+            "OnlineSecurity"
+          ],
+          [
+            "Churn",
+            "PaymentMethod"
+          ],
+          [
+            "Churn",
+            "StreamingMovies"
+          ],
+          [
+            "Churn",
+            "StreamingTV"
+          ],
+          [
+            "Churn",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "Dependents"
+          ],
+          [
+            "Contract",
+            "DeviceProtection"
+          ],
+          [
+            "Contract",
+            "OnlineBackup"
+          ],
+          [
+            "Contract",
+            "OnlineSecurity"
+          ],
+          [
+            "Contract",
+            "Partner"
+          ],
+          [
+            "Contract",
+            "PaymentMethod"
+          ],
+          [
+            "Contract",
+            "StreamingMovies"
+          ],
+          [
+            "Contract",
+            "StreamingTV"
+          ],
+          [
+            "Contract",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "TotalCharges"
+          ],
+          [
+            "Contract",
+            "tenure"
+          ],
+          [
+            "Dependents",
+            "Partner"
+          ],
+          [
+            "DeviceProtection",
+            "InternetService"
+          ],
+          [
+            "DeviceProtection",
+            "MonthlyCharges"
+          ],
+          [
+            "DeviceProtection",
+            "MultipleLines"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineBackup"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineSecurity"
+          ],
+          [
+            "DeviceProtection",
+            "PaperlessBilling"
+          ],
+          [
+            "DeviceProtection",
+            "PaymentMethod"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingMovies"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingTV"
+          ],
+          [
+            "DeviceProtection",
+            "TechSupport"
+          ],
+          [
+            "DeviceProtection",
+            "TotalCharges"
+          ],
+          [
+            "InternetService",
+            "MonthlyCharges"
+          ],
+          [
+            "InternetService",
+            "MultipleLines"
+          ],
+          [
+            "InternetService",
+            "OnlineBackup"
+          ],
+          [
+            "InternetService",
+            "OnlineSecurity"
+          ],
+          [
+            "InternetService",
+            "PaperlessBilling"
+          ],
+          [
+            "InternetService",
+            "PaymentMethod"
+          ],
+          [
+            "InternetService",
+            "PhoneService"
+          ],
+          [
+            "InternetService",
+            "SeniorCitizen"
+          ],
+          [
+            "InternetService",
+            "StreamingMovies"
+          ],
+          [
+            "InternetService",
+            "StreamingTV"
+          ],
+          [
+            "InternetService",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "MultipleLines"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineBackup"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineSecurity"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingMovies"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingTV"
+          ],
+          [
+            "MonthlyCharges",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "TotalCharges"
+          ],
+          [
+            "MonthlyCharges",
+            "tenure"
+          ],
+          [
+            "MultipleLines",
+            "OnlineBackup"
+          ],
+          [
+            "MultipleLines",
+            "OnlineSecurity"
+          ],
+          [
+            "MultipleLines",
+            "PhoneService"
+          ],
+          [
+            "MultipleLines",
+            "StreamingMovies"
+          ],
+          [
+            "MultipleLines",
+            "StreamingTV"
+          ],
+          [
+            "MultipleLines",
+            "TechSupport"
+          ],
+          [
+            "MultipleLines",
+            "TotalCharges"
+          ],
+          [
+            "OnlineBackup",
+            "OnlineSecurity"
+          ],
+          [
+            "OnlineBackup",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineBackup",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingTV"
+          ],
+          [
+            "OnlineBackup",
+            "TechSupport"
+          ],
+          [
+            "OnlineBackup",
+            "TotalCharges"
+          ],
+          [
+            "OnlineSecurity",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineSecurity",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingTV"
+          ],
+          [
+            "OnlineSecurity",
+            "TechSupport"
+          ],
+          [
+            "OnlineSecurity",
+            "TotalCharges"
+          ],
+          [
+            "PaperlessBilling",
+            "PaymentMethod"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingMovies"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingTV"
+          ],
+          [
+            "PaperlessBilling",
+            "TechSupport"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingMovies"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingTV"
+          ],
+          [
+            "PaymentMethod",
+            "TechSupport"
+          ],
+          [
+            "SeniorCitizen",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "StreamingTV"
+          ],
+          [
+            "StreamingMovies",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "TotalCharges"
+          ],
+          [
+            "StreamingTV",
+            "TechSupport"
+          ],
+          [
+            "StreamingTV",
+            "TotalCharges"
+          ],
+          [
+            "TechSupport",
+            "TotalCharges"
+          ],
+          [
+            "TotalCharges",
+            "tenure"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [
+          {
+            "a": "InternetService",
+            "b": "Contract",
+            "frame": "main",
+            "strength_corr": 0.2062627873976439,
+            "stability_freq": 0.815,
+            "p": 3.289672113255868e-129
+          },
+          {
+            "a": "SeniorCitizen",
+            "b": "OnlineSecurity",
+            "frame": "main",
+            "strength_corr": 0.21041134414016635,
+            "stability_freq": 0.87,
+            "p": 7.339222028326605e-69
+          }
+        ],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "cpss_pi080": {
+        "promoted_count": 89,
+        "overlap_with_paper": 88,
+        "promoted_pairs": [
+          [
+            "Churn",
+            "Contract"
+          ],
+          [
+            "Churn",
+            "DeviceProtection"
+          ],
+          [
+            "Churn",
+            "InternetService"
+          ],
+          [
+            "Churn",
+            "OnlineBackup"
+          ],
+          [
+            "Churn",
+            "OnlineSecurity"
+          ],
+          [
+            "Churn",
+            "PaymentMethod"
+          ],
+          [
+            "Churn",
+            "StreamingMovies"
+          ],
+          [
+            "Churn",
+            "StreamingTV"
+          ],
+          [
+            "Churn",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "Dependents"
+          ],
+          [
+            "Contract",
+            "DeviceProtection"
+          ],
+          [
+            "Contract",
+            "InternetService"
+          ],
+          [
+            "Contract",
+            "OnlineBackup"
+          ],
+          [
+            "Contract",
+            "OnlineSecurity"
+          ],
+          [
+            "Contract",
+            "Partner"
+          ],
+          [
+            "Contract",
+            "PaymentMethod"
+          ],
+          [
+            "Contract",
+            "StreamingMovies"
+          ],
+          [
+            "Contract",
+            "StreamingTV"
+          ],
+          [
+            "Contract",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "TotalCharges"
+          ],
+          [
+            "Contract",
+            "tenure"
+          ],
+          [
+            "Dependents",
+            "Partner"
+          ],
+          [
+            "Dependents",
+            "SeniorCitizen"
+          ],
+          [
+            "DeviceProtection",
+            "InternetService"
+          ],
+          [
+            "DeviceProtection",
+            "MonthlyCharges"
+          ],
+          [
+            "DeviceProtection",
+            "MultipleLines"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineBackup"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineSecurity"
+          ],
+          [
+            "DeviceProtection",
+            "PaperlessBilling"
+          ],
+          [
+            "DeviceProtection",
+            "PaymentMethod"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingMovies"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingTV"
+          ],
+          [
+            "DeviceProtection",
+            "TechSupport"
+          ],
+          [
+            "DeviceProtection",
+            "TotalCharges"
+          ],
+          [
+            "InternetService",
+            "MonthlyCharges"
+          ],
+          [
+            "InternetService",
+            "MultipleLines"
+          ],
+          [
+            "InternetService",
+            "OnlineBackup"
+          ],
+          [
+            "InternetService",
+            "OnlineSecurity"
+          ],
+          [
+            "InternetService",
+            "PaperlessBilling"
+          ],
+          [
+            "InternetService",
+            "PaymentMethod"
+          ],
+          [
+            "InternetService",
+            "PhoneService"
+          ],
+          [
+            "InternetService",
+            "SeniorCitizen"
+          ],
+          [
+            "InternetService",
+            "StreamingMovies"
+          ],
+          [
+            "InternetService",
+            "StreamingTV"
+          ],
+          [
+            "InternetService",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "MultipleLines"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineBackup"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineSecurity"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingMovies"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingTV"
+          ],
+          [
+            "MonthlyCharges",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "TotalCharges"
+          ],
+          [
+            "MonthlyCharges",
+            "tenure"
+          ],
+          [
+            "MultipleLines",
+            "OnlineBackup"
+          ],
+          [
+            "MultipleLines",
+            "OnlineSecurity"
+          ],
+          [
+            "MultipleLines",
+            "PhoneService"
+          ],
+          [
+            "MultipleLines",
+            "StreamingMovies"
+          ],
+          [
+            "MultipleLines",
+            "StreamingTV"
+          ],
+          [
+            "MultipleLines",
+            "TechSupport"
+          ],
+          [
+            "MultipleLines",
+            "TotalCharges"
+          ],
+          [
+            "OnlineBackup",
+            "OnlineSecurity"
+          ],
+          [
+            "OnlineBackup",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineBackup",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingTV"
+          ],
+          [
+            "OnlineBackup",
+            "TechSupport"
+          ],
+          [
+            "OnlineBackup",
+            "TotalCharges"
+          ],
+          [
+            "OnlineSecurity",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineSecurity",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineSecurity",
+            "SeniorCitizen"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingTV"
+          ],
+          [
+            "OnlineSecurity",
+            "TechSupport"
+          ],
+          [
+            "OnlineSecurity",
+            "TotalCharges"
+          ],
+          [
+            "PaperlessBilling",
+            "PaymentMethod"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingMovies"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingTV"
+          ],
+          [
+            "PaperlessBilling",
+            "TechSupport"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingMovies"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingTV"
+          ],
+          [
+            "PaymentMethod",
+            "TechSupport"
+          ],
+          [
+            "SeniorCitizen",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "StreamingTV"
+          ],
+          [
+            "StreamingMovies",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "TotalCharges"
+          ],
+          [
+            "StreamingTV",
+            "TechSupport"
+          ],
+          [
+            "StreamingTV",
+            "TotalCharges"
+          ],
+          [
+            "TechSupport",
+            "TotalCharges"
+          ],
+          [
+            "TotalCharges",
+            "tenure"
+          ]
+        ],
+        "extra_vs_paper": [
+          {
+            "a": "SeniorCitizen",
+            "b": "Dependents",
+            "frame": "main",
+            "strength_corr": 0.21086358274319655,
+            "stability_freq": 0.885,
+            "p": 2.7766771951530193e-70
+          }
+        ],
+        "missed_vs_paper": [],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      },
+      "hybrid_pi090_bh": {
+        "promoted_count": 86,
+        "overlap_with_paper": 86,
+        "promoted_pairs": [
+          [
+            "Churn",
+            "Contract"
+          ],
+          [
+            "Churn",
+            "DeviceProtection"
+          ],
+          [
+            "Churn",
+            "InternetService"
+          ],
+          [
+            "Churn",
+            "OnlineBackup"
+          ],
+          [
+            "Churn",
+            "OnlineSecurity"
+          ],
+          [
+            "Churn",
+            "PaymentMethod"
+          ],
+          [
+            "Churn",
+            "StreamingMovies"
+          ],
+          [
+            "Churn",
+            "StreamingTV"
+          ],
+          [
+            "Churn",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "Dependents"
+          ],
+          [
+            "Contract",
+            "DeviceProtection"
+          ],
+          [
+            "Contract",
+            "OnlineBackup"
+          ],
+          [
+            "Contract",
+            "OnlineSecurity"
+          ],
+          [
+            "Contract",
+            "Partner"
+          ],
+          [
+            "Contract",
+            "PaymentMethod"
+          ],
+          [
+            "Contract",
+            "StreamingMovies"
+          ],
+          [
+            "Contract",
+            "StreamingTV"
+          ],
+          [
+            "Contract",
+            "TechSupport"
+          ],
+          [
+            "Contract",
+            "TotalCharges"
+          ],
+          [
+            "Contract",
+            "tenure"
+          ],
+          [
+            "Dependents",
+            "Partner"
+          ],
+          [
+            "DeviceProtection",
+            "InternetService"
+          ],
+          [
+            "DeviceProtection",
+            "MonthlyCharges"
+          ],
+          [
+            "DeviceProtection",
+            "MultipleLines"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineBackup"
+          ],
+          [
+            "DeviceProtection",
+            "OnlineSecurity"
+          ],
+          [
+            "DeviceProtection",
+            "PaperlessBilling"
+          ],
+          [
+            "DeviceProtection",
+            "PaymentMethod"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingMovies"
+          ],
+          [
+            "DeviceProtection",
+            "StreamingTV"
+          ],
+          [
+            "DeviceProtection",
+            "TechSupport"
+          ],
+          [
+            "DeviceProtection",
+            "TotalCharges"
+          ],
+          [
+            "InternetService",
+            "MonthlyCharges"
+          ],
+          [
+            "InternetService",
+            "MultipleLines"
+          ],
+          [
+            "InternetService",
+            "OnlineBackup"
+          ],
+          [
+            "InternetService",
+            "OnlineSecurity"
+          ],
+          [
+            "InternetService",
+            "PaperlessBilling"
+          ],
+          [
+            "InternetService",
+            "PaymentMethod"
+          ],
+          [
+            "InternetService",
+            "PhoneService"
+          ],
+          [
+            "InternetService",
+            "SeniorCitizen"
+          ],
+          [
+            "InternetService",
+            "StreamingMovies"
+          ],
+          [
+            "InternetService",
+            "StreamingTV"
+          ],
+          [
+            "InternetService",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "MultipleLines"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineBackup"
+          ],
+          [
+            "MonthlyCharges",
+            "OnlineSecurity"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingMovies"
+          ],
+          [
+            "MonthlyCharges",
+            "StreamingTV"
+          ],
+          [
+            "MonthlyCharges",
+            "TechSupport"
+          ],
+          [
+            "MonthlyCharges",
+            "TotalCharges"
+          ],
+          [
+            "MonthlyCharges",
+            "tenure"
+          ],
+          [
+            "MultipleLines",
+            "OnlineBackup"
+          ],
+          [
+            "MultipleLines",
+            "OnlineSecurity"
+          ],
+          [
+            "MultipleLines",
+            "PhoneService"
+          ],
+          [
+            "MultipleLines",
+            "StreamingMovies"
+          ],
+          [
+            "MultipleLines",
+            "StreamingTV"
+          ],
+          [
+            "MultipleLines",
+            "TechSupport"
+          ],
+          [
+            "MultipleLines",
+            "TotalCharges"
+          ],
+          [
+            "OnlineBackup",
+            "OnlineSecurity"
+          ],
+          [
+            "OnlineBackup",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineBackup",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineBackup",
+            "StreamingTV"
+          ],
+          [
+            "OnlineBackup",
+            "TechSupport"
+          ],
+          [
+            "OnlineBackup",
+            "TotalCharges"
+          ],
+          [
+            "OnlineSecurity",
+            "PaperlessBilling"
+          ],
+          [
+            "OnlineSecurity",
+            "PaymentMethod"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingMovies"
+          ],
+          [
+            "OnlineSecurity",
+            "StreamingTV"
+          ],
+          [
+            "OnlineSecurity",
+            "TechSupport"
+          ],
+          [
+            "OnlineSecurity",
+            "TotalCharges"
+          ],
+          [
+            "PaperlessBilling",
+            "PaymentMethod"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingMovies"
+          ],
+          [
+            "PaperlessBilling",
+            "StreamingTV"
+          ],
+          [
+            "PaperlessBilling",
+            "TechSupport"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingMovies"
+          ],
+          [
+            "PaymentMethod",
+            "StreamingTV"
+          ],
+          [
+            "PaymentMethod",
+            "TechSupport"
+          ],
+          [
+            "SeniorCitizen",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "StreamingTV"
+          ],
+          [
+            "StreamingMovies",
+            "TechSupport"
+          ],
+          [
+            "StreamingMovies",
+            "TotalCharges"
+          ],
+          [
+            "StreamingTV",
+            "TechSupport"
+          ],
+          [
+            "StreamingTV",
+            "TotalCharges"
+          ],
+          [
+            "TechSupport",
+            "TotalCharges"
+          ],
+          [
+            "TotalCharges",
+            "tenure"
+          ]
+        ],
+        "extra_vs_paper": [],
+        "missed_vs_paper": [
+          {
+            "a": "InternetService",
+            "b": "Contract",
+            "frame": "main",
+            "strength_corr": 0.2062627873976439,
+            "stability_freq": 0.815,
+            "p": 3.289672113255868e-129
+          },
+          {
+            "a": "SeniorCitizen",
+            "b": "OnlineSecurity",
+            "frame": "main",
+            "strength_corr": 0.21041134414016635,
+            "stability_freq": 0.87,
+            "p": 7.339222028326605e-69
+          }
+        ],
+        "control_pairs_promoted": [],
+        "control_pairs_promoted_count": 0
+      }
+    },
+    "pair_table": [
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "MonthlyCharges",
+        "method": "pearson_r",
+        "strength_corr": 0.2478998562861501,
+        "p": 4.0940449914886215e-99,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "TotalCharges",
+        "method": "pearson_r",
+        "strength_corr": 0.8258804609332018,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.014603338199506738,
+        "p": 0.220425422928903,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "monthly_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.005704310569966191,
+        "p": 0.6321951822130008,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "gender",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6683205263415546,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "SeniorCitizen",
+        "method": "eta_squared",
+        "strength_corr": 0.00013245632910246978,
+        "p": 0.1644730739970487,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "Partner",
+        "method": "eta_squared",
+        "strength_corr": 0.1440311056398904,
+        "p": 2.334694513093355e-240,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "Dependents",
+        "method": "eta_squared",
+        "strength_corr": 0.025366115513489856,
+        "p": 1.846407630200795e-41,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "PhoneService",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.47839761961375704,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "MultipleLines",
+        "method": "eta_squared",
+        "strength_corr": 0.11764566377074832,
+        "p": 1.5983572244650975e-192,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "InternetService",
+        "method": "eta_squared",
+        "strength_corr": 0.0012449775555594838,
+        "p": 0.004582404123170688,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "OnlineSecurity",
+        "method": "eta_squared",
+        "strength_corr": 0.11231263545008575,
+        "p": 2.6104785773560053e-183,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "OnlineBackup",
+        "method": "eta_squared",
+        "strength_corr": 0.14087507524723486,
+        "p": 2.5907649339406274e-233,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "DeviceProtection",
+        "method": "eta_squared",
+        "strength_corr": 0.1411010119692861,
+        "p": 1.0263535764694273e-233,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "TechSupport",
+        "method": "eta_squared",
+        "strength_corr": 0.11037307091597887,
+        "p": 5.6713621937980255e-180,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "StreamingTV",
+        "method": "eta_squared",
+        "strength_corr": 0.08519476281425045,
+        "p": 2.6551768193769793e-137,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "StreamingMovies",
+        "method": "eta_squared",
+        "strength_corr": 0.0894907687473391,
+        "p": 1.6875773564910165e-144,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "Contract",
+        "method": "eta_squared",
+        "strength_corr": 0.4566018386225922,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "PaperlessBilling",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6056830331247005,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "PaymentMethod",
+        "method": "eta_squared",
+        "strength_corr": 0.15948642548192027,
+        "p": 1.5038483612782658e-265,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "tenure",
+        "b": "Churn",
+        "method": "eta_squared",
+        "strength_corr": 0.12392521423567857,
+        "p": 7.99905796057422e-205,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "TotalCharges",
+        "method": "pearson_r",
+        "strength_corr": 0.6510648032262024,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.010473299831965755,
+        "p": 0.3795018795302013,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "monthly_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.0029904851097736435,
+        "p": 0.8018719013554818,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "gender",
+        "method": "eta_squared",
+        "strength_corr": 7.026008384449902e-05,
+        "p": 0.2215022993315796,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "SeniorCitizen",
+        "method": "eta_squared",
+        "strength_corr": 0.04833462663751763,
+        "p": 4.574872175515757e-78,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "Partner",
+        "method": "eta_squared",
+        "strength_corr": 0.009237529948791462,
+        "p": 3.779077123394118e-16,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "Dependents",
+        "method": "eta_squared",
+        "strength_corr": 0.012829003012597442,
+        "p": 9.026752974346599e-22,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "PhoneService",
+        "method": "eta_squared",
+        "strength_corr": 0.061064277832303795,
+        "p": 1.0421589008974141e-98,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "MultipleLines",
+        "method": "eta_squared",
+        "strength_corr": 0.25346805286124324,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "InternetService",
+        "method": "eta_squared",
+        "strength_corr": 0.8206258271975209,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "OnlineSecurity",
+        "method": "eta_squared",
+        "strength_corr": 0.5848529634336048,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "OnlineBackup",
+        "method": "eta_squared",
+        "strength_corr": 0.6093534379260998,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "DeviceProtection",
+        "method": "eta_squared",
+        "strength_corr": 0.6259777203945894,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "TechSupport",
+        "method": "eta_squared",
+        "strength_corr": 0.5903611587467114,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "StreamingTV",
+        "method": "eta_squared",
+        "strength_corr": 0.7007969564119773,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "StreamingMovies",
+        "method": "eta_squared",
+        "strength_corr": 0.6977407139960585,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "Contract",
+        "method": "eta_squared",
+        "strength_corr": 0.005599042285864355,
+        "p": 9.575270975896451e-10,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "PaperlessBilling",
+        "method": "eta_squared",
+        "strength_corr": 0.12386977605293192,
+        "p": 9.997602630633396e-205,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "PaymentMethod",
+        "method": "eta_squared",
+        "strength_corr": 0.16064400992360986,
+        "p": 1.1802197193591076e-267,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MonthlyCharges",
+        "b": "Churn",
+        "method": "eta_squared",
+        "strength_corr": 0.03724489864545392,
+        "p": 2.706645606882553e-60,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "rand_num",
+        "method": "pearson_r",
+        "strength_corr": 0.011989505366398376,
+        "p": 0.31477090062888136,
+        "n": 7032,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "monthly_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.006885152748847185,
+        "p": 0.5637553196824887,
+        "n": 7032,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "gender",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9967997211662445,
+        "n": 7032,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "SeniorCitizen",
+        "method": "eta_squared",
+        "strength_corr": 0.010345720250647054,
+        "p": 7.372387283993096e-18,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "Partner",
+        "method": "eta_squared",
+        "strength_corr": 0.10166641780850005,
+        "p": 3.6991072882691484e-166,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "Dependents",
+        "method": "eta_squared",
+        "strength_corr": 0.004037817782149465,
+        "p": 5.75204813908121e-08,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "PhoneService",
+        "method": "eta_squared",
+        "strength_corr": 0.012628662703091275,
+        "p": 1.99446514282375e-21,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "MultipleLines",
+        "method": "eta_squared",
+        "strength_corr": 0.22010976535544402,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "InternetService",
+        "method": "eta_squared",
+        "strength_corr": 0.18454212511387333,
+        "p": 1.400836174544e-312,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.005,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "OnlineSecurity",
+        "method": "eta_squared",
+        "strength_corr": 0.23347395901324816,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "OnlineBackup",
+        "method": "eta_squared",
+        "strength_corr": 0.2981001191427106,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "DeviceProtection",
+        "method": "eta_squared",
+        "strength_corr": 0.3094298446708366,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "TechSupport",
+        "method": "eta_squared",
+        "strength_corr": 0.24652827891033632,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "StreamingTV",
+        "method": "eta_squared",
+        "strength_corr": 0.29699382064826896,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "StreamingMovies",
+        "method": "eta_squared",
+        "strength_corr": 0.3000431443890882,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "Contract",
+        "method": "eta_squared",
+        "strength_corr": 0.20984208457909018,
+        "p": 0.0,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.9,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "PaperlessBilling",
+        "method": "eta_squared",
+        "strength_corr": 0.02476810083160081,
+        "p": 1.8604861776613087e-40,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "PaymentMethod",
+        "method": "eta_squared",
+        "strength_corr": 0.12226953265935882,
+        "p": 4.608039633512541e-199,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "TotalCharges",
+        "b": "Churn",
+        "method": "eta_squared",
+        "strength_corr": 0.039651896738534344,
+        "p": 4.8768656896856206e-64,
+        "n": 7032,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "monthly_perm",
+        "method": "pearson_r",
+        "strength_corr": 0.017406069027183994,
+        "p": 0.14412150029293114,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "gender",
+        "method": "eta_squared",
+        "strength_corr": 8.71843810255703e-05,
+        "p": 0.2039593643526434,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "SeniorCitizen",
+        "method": "eta_squared",
+        "strength_corr": 0.00017286587705623213,
+        "p": 0.136480539085843,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "Partner",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7952409267638173,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "Dependents",
+        "method": "eta_squared",
+        "strength_corr": 0.0004210787045310822,
+        "p": 0.046441508028857124,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "PhoneService",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5743409103739314,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "MultipleLines",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6479267093220826,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "InternetService",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7049309182090634,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "OnlineSecurity",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9300956696407102,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "OnlineBackup",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9904840689265629,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "DeviceProtection",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.4042217791387176,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "TechSupport",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.8643214563655348,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "StreamingTV",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.3748657254348756,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "StreamingMovies",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5430773027069863,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "Contract",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.4373964712085221,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "PaperlessBilling",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.424683698472487,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "PaymentMethod",
+        "method": "eta_squared",
+        "strength_corr": 0.00017860005123855363,
+        "p": 0.23500496897478518,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "rand_num",
+        "b": "Churn",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9493002069941274,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "gender",
+        "method": "eta_squared",
+        "strength_corr": 0.00013503494201691453,
+        "p": 0.16250382406633668,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "SeniorCitizen",
+        "method": "eta_squared",
+        "strength_corr": 4.161021722228972e-06,
+        "p": 0.31035653846639955,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "Partner",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6382526069878003,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "Dependents",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.9039327910710591,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "PhoneService",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6443955131634609,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "MultipleLines",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6799503274957912,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "InternetService",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.8696790864877595,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "OnlineSecurity",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.5060842090603009,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "OnlineBackup",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.6809146469504883,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "DeviceProtection",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.958856416009003,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "TechSupport",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7602814862423273,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "StreamingTV",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.8956755907749903,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "StreamingMovies",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7155743491284782,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "Contract",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.8343688925572539,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "PaperlessBilling",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.3527449126759554,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "PaymentMethod",
+        "method": "eta_squared",
+        "strength_corr": 0.0,
+        "p": 0.7793214363193283,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "monthly_perm",
+        "b": "Churn",
+        "method": "eta_squared",
+        "strength_corr": 0.0003817110799628394,
+        "p": 0.05479906772643881,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "SeniorCitizen",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.8750504081004492,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "Partner",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.8793930196434994,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "Dependents",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.37746256773204534,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "PhoneService",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.5861234494277734,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "MultipleLines",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.7300883794871589,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.6368387508139732,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.0024159293144497946,
+        "p": 0.36034510695839084,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.5114656672930569,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.8798421041561362,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.7168711709191198,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.759223361600868,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.6711752991499342,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.7913193606321981,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.3239368006106814,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.48464793704472087,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "gender",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.4698339411426521,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "Partner",
+        "method": "cramers_v",
+        "strength_corr": 0.011382418114437803,
+        "p": 0.1666858656369753,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "Dependents",
+        "method": "cramers_v",
+        "strength_corr": 0.21086358274319655,
+        "p": 2.7766771951530193e-70,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.885,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": true,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "PhoneService",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.4716766352178864,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "MultipleLines",
+        "method": "cramers_v",
+        "strength_corr": 0.14568165001016162,
+        "p": 1.2949609503851393e-33,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.2648070602618791,
+        "p": 2.1743887244315773e-108,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.21041134414016635,
+        "p": 7.339222028326605e-69,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.87,
+        "paper": true,
+        "cpss_pi090": false,
+        "cpss_pi080": true,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.18200803616753897,
+        "p": 8.120416527751956e-52,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.02,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.18230679060416494,
+        "p": 5.535342566026123e-52,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.025,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.2234316553186785,
+        "p": 1.6897689588912409e-77,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.99,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.1848321598498304,
+        "p": 2.1153140193457866e-53,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.035,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.18822229454889886,
+        "p": 2.46292032821518e-55,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.08,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.1428880539876045,
+        "p": 2.2129790664281912e-32,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.1560863782989326,
+        "p": 2.037833103011035e-39,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.1949084652091832,
+        "p": 2.3807731790166243e-58,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.305,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "SeniorCitizen",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.15042871285200934,
+        "p": 9.477903507376056e-37,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "Dependents",
+        "method": "cramers_v",
+        "strength_corr": 0.45255153858178676,
+        "p": 8.5167907e-316,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "PhoneService",
+        "method": "cramers_v",
+        "strength_corr": 0.013096173230315452,
+        "p": 0.13730425139797897,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "MultipleLines",
+        "method": "cramers_v",
+        "strength_corr": 0.14291757789950507,
+        "p": 2.148197355425175e-32,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.9971049904073069,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.15108346996935973,
+        "p": 4.5805556310775415e-36,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.15241876200904667,
+        "p": 1.099532830019677e-36,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.16572530224148976,
+        "p": 3.695778569845101e-43,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.1265331237978345,
+        "p": 1.21052389093801e-25,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.13631446553408544,
+        "p": 1.41750092448864e-29,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.12848240775699285,
+        "p": 2.1029842618800157e-26,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.2955803913635105,
+        "p": 9.271465654549678e-135,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.00890618000963665,
+        "p": 0.2118536540224345,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.16145973514918188,
+        "p": 3.3445533875870507e-40,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Partner",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.14998550986615822,
+        "p": 1.5190366200996928e-36,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "PhoneService",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.8824653988923623,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "MultipleLines",
+        "method": "cramers_v",
+        "strength_corr": 0.018594314952017788,
+        "p": 0.10887850842875912,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.17949051616039788,
+        "p": 2.0009104630634743e-50,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.03,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.1938618290827969,
+        "p": 1.248739645508623e-58,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.255,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.16189680490175395,
+        "p": 3.059992771137658e-41,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.005,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.15667742129359064,
+        "p": 1.0674140729735028e-38,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.1816100332850241,
+        "p": 1.3516946846601284e-51,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.045,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.1461241456343202,
+        "p": 8.218800775004055e-34,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.14033700304746724,
+        "p": 2.817226324191903e-31,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.24364735998072437,
+        "p": 6.152877873541984e-92,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.11074576158903486,
+        "p": 9.011373735645388e-21,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.14933498705586692,
+        "p": 1.7935563214873817e-34,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Dependents",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.16380010283590032,
+        "p": 3.2760828093975594e-43,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "MultipleLines",
+        "method": "cramers_v",
+        "strength_corr": 0.9999289848381734,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.45214361036441736,
+        "p": 9.0252445546e-314,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.1754773704520742,
+        "p": 3.016899938904115e-48,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.1720065700908252,
+        "p": 2.1076052906802836e-46,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.17150353739146829,
+        "p": 3.872769749888249e-46,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.17618488296972198,
+        "p": 1.2563187719667984e-48,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.1796584999797848,
+        "p": 1.6179761449484718e-50,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.005,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.17673112896427512,
+        "p": 6.3725278715535414e-49,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.9458482013295315,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.011420246086643831,
+        "p": 0.16601396283081793,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.0,
+        "p": 0.8621473788722153,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PhoneService",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.0007783706471916932,
+        "p": 0.3162461315739542,
+        "n": 7043,
+        "bh": false,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "InternetService",
+        "method": "cramers_v",
+        "strength_corr": 0.3964239416824232,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.22902150771761742,
+        "p": 2.06274332335275e-159,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.24461733837506677,
+        "p": 6.073056430297738e-182,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.24580007528065773,
+        "p": 1.0325188802064614e-183,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.22957683660799352,
+        "p": 3.449656924095101e-160,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.2612855601121961,
+        "p": 1.134521743973756e-207,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.261851736104624,
+        "p": 1.4157232232016467e-208,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.07863293204270524,
+        "p": 7.795766472649455e-19,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.16549648072673886,
+        "p": 4.82615548684713e-43,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.005,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.16567238997658312,
+        "p": 1.1367151062832023e-81,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "MultipleLines",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.03639958908232507,
+        "p": 0.0034643829548773003,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.0,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "OnlineSecurity",
+        "method": "cramers_v",
+        "strength_corr": 0.724373183315211,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.7070836382983393,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.7070072306646231,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.7228106651566129,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.7170027863156808,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7159109936243645,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.2062627873976439,
+        "p": 3.289672113255868e-129,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.815,
+        "paper": true,
+        "cpss_pi090": false,
+        "cpss_pi080": true,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.37807877405500173,
+        "p": 9.624539043675317e-220,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.31248637128022655,
+        "p": 3.0319707718157926e-295,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "InternetService",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.3220367323307425,
+        "p": 9.571788222840542e-160,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "OnlineBackup",
+        "method": "cramers_v",
+        "strength_corr": 0.7183387336492695,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.717195348034698,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.7329815449984237,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.7076882346999048,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7081084537230841,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.30091986685805816,
+        "p": 1.0952608552275212e-275,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.3414082814541157,
+        "p": 2.1301550067883823e-179,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.3043026796051081,
+        "p": 7.427176940680159e-280,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineSecurity",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.34701606688272874,
+        "p": 2.661149635176552e-185,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "DeviceProtection",
+        "method": "cramers_v",
+        "strength_corr": 0.7190298742103919,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.7197392597981257,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.7146019752630102,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7135841181041668,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.2580586610357929,
+        "p": 1.4746162886778193e-202,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.3206259613569576,
+        "p": 2.3302230714330484e-158,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.2818016870309208,
+        "p": 1.1619696858579125e-239,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "OnlineBackup",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.291850036724674,
+        "p": 2.0797592160864273e-131,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "TechSupport",
+        "method": "cramers_v",
+        "strength_corr": 0.7263929704004647,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.733571631894728,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7359590442515681,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.2965400512141917,
+        "p": 1.0679750829209265e-267,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.3212122347186786,
+        "p": 6.194258081257639e-159,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.2863187278165483,
+        "p": 1.7597723604998124e-247,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "DeviceProtection",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.28109492388964397,
+        "p": 5.505219496457244e-122,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "StreamingTV",
+        "method": "cramers_v",
+        "strength_corr": 0.7161698389001873,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7162300529878513,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.3306386036599037,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.3291164558245661,
+        "p": 8.54341246032221e-167,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.3062369863067304,
+        "p": 1.8642835652496688e-283,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "TechSupport",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.3425261587493695,
+        "p": 1.4430840279998987e-180,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingTV",
+        "b": "StreamingMovies",
+        "method": "cramers_v",
+        "strength_corr": 0.7709672064683412,
+        "p": 0.0,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingTV",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.23533204798978846,
+        "p": 2.3841537326006655e-168,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingTV",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.3356616960224859,
+        "p": 1.8971129043472476e-173,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingTV",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.27293037342248655,
+        "p": 1.1439806251706956e-224,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingTV",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.22990176915403474,
+        "p": 5.528994485739183e-82,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingMovies",
+        "b": "Contract",
+        "method": "cramers_v",
+        "strength_corr": 0.23807786293405958,
+        "p": 2.584785775808175e-172,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingMovies",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.33170661880080626,
+        "p": 2.0619420393215803e-169,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingMovies",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.27392100652443274,
+        "p": 2.5593483747981724e-226,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "StreamingMovies",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.23035147282444215,
+        "p": 2.6677567557236804e-82,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "Contract",
+        "b": "PaperlessBilling",
+        "method": "cramers_v",
+        "strength_corr": 0.17685659621989447,
+        "p": 5.4509598453021695e-49,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.03,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "Contract",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.2658924938714761,
+        "p": 4.067638353787386e-213,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "Contract",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.40979839182553446,
+        "p": 5.863038300673392e-258,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "PaperlessBilling",
+        "b": "PaymentMethod",
+        "method": "cramers_v",
+        "strength_corr": 0.247878273283877,
+        "p": 4.115239070710318e-94,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      },
+      {
+        "frame": "main",
+        "a": "PaperlessBilling",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.19146842738873,
+        "p": 2.614597423787297e-58,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 0.195,
+        "paper": false,
+        "cpss_pi090": false,
+        "cpss_pi080": false,
+        "hybrid": false
+      },
+      {
+        "frame": "main",
+        "a": "PaymentMethod",
+        "b": "Churn",
+        "method": "cramers_v",
+        "strength_corr": 0.3026771381187204,
+        "p": 3.6823546520098e-140,
+        "n": 7043,
+        "bh": true,
+        "stability_freq": 1.0,
+        "paper": true,
+        "cpss_pi090": true,
+        "cpss_pi080": true,
+        "hybrid": true
+      }
+    ],
+    "cpss_runtime_seconds": 17.865867137908936,
+    "total_runtime_seconds": 28.766677618026733,
+    "analysis_rows": 7043
+  }
+}

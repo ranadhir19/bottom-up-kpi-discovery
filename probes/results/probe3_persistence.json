@@ -1,0 +1,44 @@
+{
+  "null_num_n=100": {
+    "pi_mean_window_pass": 0.8465,
+    "pass_rate_60pct_rule": 0.985,
+    "mean_full_strength": 0.08036234373569688,
+    "n_pairs_with_full_strength>=0.20": 9,
+    "pass_rate_given_strength>=0.20": 1.0
+  },
+  "null_num_n=500": {
+    "pi_mean_window_pass": 0.8385000000000001,
+    "pass_rate_60pct_rule": 1.0,
+    "mean_full_strength": 0.035991778540525904,
+    "n_pairs_with_full_strength>=0.20": 0
+  },
+  "plant_rho03_n=100": {
+    "pi_mean_window_pass": 0.9209999999999999,
+    "pass_rate_60pct_rule": 1.0,
+    "mean_full_strength": 0.30055139528223873
+  },
+  "plant_rho03_n=500": {
+    "pi_mean_window_pass": 0.9995,
+    "pass_rate_60pct_rule": 1.0,
+    "mean_full_strength": 0.2973790545866821
+  },
+  "plant_rho05_n=100": {
+    "pi_mean_window_pass": 0.99375,
+    "pass_rate_60pct_rule": 1.0,
+    "mean_full_strength": 0.5004323878212888
+  },
+  "plant_rho05_n=500": {
+    "pi_mean_window_pass": 1.0,
+    "pass_rate_60pct_rule": 1.0,
+    "mean_full_strength": 0.49772975261012403
+  },
+  "null_cat_n=500": {
+    "pi_mean_window_pass": 0.81025,
+    "pass_rate_60pct_rule": 0.725,
+    "mean_full_strength": 0.019050722316403847
+  },
+  "addendum_claim": {
+    "alpha_eff_claimed": 0.02,
+    "basis": "0.4 * 0.05 under a 60% window-survival rule (binomial)"
+  }
+}

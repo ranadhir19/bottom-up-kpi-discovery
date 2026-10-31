@@ -1,0 +1,961 @@
+{
+  "dataset": "UCI Bank Marketing, bank-additional-full.csv (official UCI archive, dataset 222)",
+  "source_archive_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "source_dataset_page": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "archive_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+  "inner_archive_sha256": "a607b5edab6c6c75ce09c39142a77702c38123bd5aa7ae89a63503bbe17d65cd",
+  "csv_sha256": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "preregistration_file": "bank_preregistration.md",
+  "preregistration_written_edt": "2026-10-27 15:04 EDT (19:04 UTC), before any data download",
+  "run_started_utc": "2026-10-27T19:06:37.741536+00:00",
+  "analysis_rows": 41188,
+  "analysis_columns_before_controls": 21,
+  "analysis_columns_after_controls": 23,
+  "columns": [
+    "age",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "rand_num",
+    "age_perm",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome",
+    "y"
+  ],
+  "family_pairs": 253,
+  "bh_rejections": 179,
+  "bh_and_floor": 34,
+  "promoted_final": [
+    {
+      "a": "age",
+      "b": "job",
+      "method": "eta_squared",
+      "strength_raw": 0.2548105737639982,
+      "strength_corr": 0.25460689166636574,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "pdays",
+      "b": "previous",
+      "method": "pearson_r",
+      "strength_raw": 0.5875138561368171,
+      "strength_corr": 0.5875138561368171,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "b_campaign_history"
+    },
+    {
+      "a": "pdays",
+      "b": "emp.var.rate",
+      "method": "pearson_r",
+      "strength_raw": 0.2710041742618697,
+      "strength_corr": 0.2710041742618697,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "pdays",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_raw": 0.29689911239699285,
+      "strength_corr": 0.29689911239699285,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "pdays",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_raw": 0.37260474218585676,
+      "strength_corr": 0.37260474218585676,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "pdays",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_raw": 0.9067090811078765,
+      "strength_corr": 0.9067024969401726,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "b_campaign_history"
+    },
+    {
+      "a": "previous",
+      "b": "emp.var.rate",
+      "method": "pearson_r",
+      "strength_raw": 0.4204891094133454,
+      "strength_corr": 0.4204891094133454,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "previous",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_raw": 0.4544936536077272,
+      "strength_corr": 0.4544936536077272,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "previous",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_raw": 0.5013329290363117,
+      "strength_corr": 0.5013329290363117,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "previous",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_raw": 0.7887844962486869,
+      "strength_corr": 0.7887701941605139,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "b_campaign_history"
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "cons.price.idx",
+      "method": "pearson_r",
+      "strength_raw": 0.7753341708350002,
+      "strength_corr": 0.7753341708350002,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_raw": 0.9722446711516144,
+      "strength_corr": 0.9722446711516144,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_raw": 0.9069701012560655,
+      "strength_corr": 0.9069701012560655,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_raw": 0.3459458232599703,
+      "strength_corr": 0.34579737851252307,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_raw": 0.22493915775220974,
+      "strength_corr": 0.2248972873924797,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_raw": 0.6882301070376663,
+      "strength_corr": 0.6882301070376663,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_raw": 0.5220339770132975,
+      "strength_corr": 0.5220339770132975,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "contact",
+      "method": "eta_squared",
+      "strength_raw": 0.3498410415546046,
+      "strength_corr": 0.3498197334063998,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_raw": 0.3701053607196188,
+      "strength_corr": 0.36996202959978036,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.conf.idx",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_raw": 0.27768621966374796,
+      "strength_corr": 0.27768621966374796,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "cons.conf.idx",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_raw": 0.37496719706891546,
+      "strength_corr": 0.374824898436557,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "euribor3m",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_raw": 0.9451544313982781,
+      "strength_corr": 0.9451544313982781,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "euribor3m",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_raw": 0.33422048247714176,
+      "strength_corr": 0.3340695661545356,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "euribor3m",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_raw": 0.24212914441859656,
+      "strength_corr": 0.24208788636190784,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "nr.employed",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_raw": 0.42032745950019607,
+      "strength_corr": 0.42019484916748884,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "nr.employed",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_raw": 0.26163505511641916,
+      "strength_corr": 0.2615945092355121,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "c_shared_context_macro"
+    },
+    {
+      "a": "job",
+      "b": "education",
+      "method": "cramers_v",
+      "strength_raw": 0.35986693058845576,
+      "strength_corr": 0.3595262182350892,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "housing",
+      "b": "loan",
+      "method": "cramers_v",
+      "strength_raw": 0.7078695912295344,
+      "strength_corr": 0.7078524775105789,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "contact",
+      "b": "month",
+      "method": "cramers_v",
+      "strength_raw": 0.6092587006560519,
+      "strength_corr": 0.6090867394277258,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "contact",
+      "b": "poutcome",
+      "method": "cramers_v",
+      "strength_raw": 0.24251596632332836,
+      "strength_corr": 0.24241877349073443,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "month",
+      "b": "poutcome",
+      "method": "cramers_v",
+      "strength_raw": 0.2428448832409043,
+      "strength_corr": 0.24240044346997192,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "month",
+      "b": "y",
+      "method": "cramers_v",
+      "strength_raw": 0.2743948709306683,
+      "strength_corr": 0.2739997307418747,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    },
+    {
+      "a": "poutcome",
+      "b": "y",
+      "method": "cramers_v",
+      "strength_raw": 0.32048796034156973,
+      "strength_corr": 0.32041608324741466,
+      "p": 0.0,
+      "n": 41188.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "classification": "e_substantive"
+    }
+  ],
+  "promoted_final_count": 33,
+  "promoted_but_splithalf_failed": [
+    {
+      "a": "previous",
+      "b": "cons.price.idx",
+      "strength_corr": 0.2031299674503141,
+      "classification": "c_shared_context_macro"
+    }
+  ],
+  "classification_counts": {
+    "e_substantive": 8,
+    "b_campaign_history": 3,
+    "c_shared_context_macro": 22
+  },
+  "control_pairs_promoted": 0,
+  "control_pairs_total": 43,
+  "control_pairs_bh_rejected": 4,
+  "control_pairs_bh_and_floor": 0,
+  "control_pair_outcomes": [
+    {
+      "a": "age",
+      "b": "rand_num",
+      "strength_corr": 0.002032313500706054,
+      "p": 0.6800151794025333,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age",
+      "b": "age_perm",
+      "strength_corr": 0.0018106030145672827,
+      "p": 0.7132849495886573,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "duration",
+      "b": "rand_num",
+      "strength_corr": 0.0058406315043884865,
+      "p": 0.2358908736982379,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "duration",
+      "b": "age_perm",
+      "strength_corr": 0.007040835808444309,
+      "p": 0.15303303950181624,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "campaign",
+      "b": "rand_num",
+      "strength_corr": 0.006987491254145568,
+      "p": 0.1561692988959127,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "campaign",
+      "b": "age_perm",
+      "strength_corr": 0.001130820902125744,
+      "p": 0.8184871181322759,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "pdays",
+      "b": "rand_num",
+      "strength_corr": 0.012403525777637927,
+      "p": 0.011825992861208721,
+      "bh": true,
+      "floor": false
+    },
+    {
+      "a": "pdays",
+      "b": "age_perm",
+      "strength_corr": 0.0001963683086902698,
+      "p": 0.968211598088407,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "previous",
+      "b": "rand_num",
+      "strength_corr": 0.006425071910196858,
+      "p": 0.19225707278997806,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "previous",
+      "b": "age_perm",
+      "strength_corr": 0.0015986787751246635,
+      "p": 0.7456053559541659,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "rand_num",
+      "strength_corr": 0.006874453679208857,
+      "p": 0.1629758517569384,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "age_perm",
+      "strength_corr": 0.003689007918247346,
+      "p": 0.45406360676657775,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "rand_num",
+      "strength_corr": 0.001762311551668067,
+      "p": 0.7206071246778456,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "age_perm",
+      "strength_corr": 0.004809276980350622,
+      "p": 0.329059280120818,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "cons.conf.idx",
+      "b": "rand_num",
+      "strength_corr": 0.00493150926752323,
+      "p": 0.31691529834053733,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "cons.conf.idx",
+      "b": "age_perm",
+      "strength_corr": 0.005700322316103177,
+      "p": 0.24733575985762157,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "euribor3m",
+      "b": "rand_num",
+      "strength_corr": 0.006977791997221646,
+      "p": 0.1567447443144282,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "euribor3m",
+      "b": "age_perm",
+      "strength_corr": 0.0029100638041084773,
+      "p": 0.5548047245097605,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "nr.employed",
+      "b": "rand_num",
+      "strength_corr": 0.00961456187446458,
+      "p": 0.051027959634258144,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "nr.employed",
+      "b": "age_perm",
+      "strength_corr": 0.0011349449261983337,
+      "p": 0.8178367552402583,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "age_perm",
+      "strength_corr": 0.00633487227755451,
+      "p": 0.1985738819440146,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "job",
+      "strength_corr": 1.4037650606455e-05,
+      "p": 0.3961976298509643,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "marital",
+      "strength_corr": 4.4825721737644826e-05,
+      "p": 0.18341662849374518,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "education",
+      "strength_corr": 0.0002052832266457544,
+      "p": 0.030589918017598777,
+      "bh": true,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "default",
+      "strength_corr": 1.4384286302292402e-05,
+      "p": 0.2735711737298392,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "housing",
+      "strength_corr": 0.0,
+      "p": 0.9423389165356008,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "loan",
+      "strength_corr": 0.0,
+      "p": 0.8442984181571037,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "contact",
+      "strength_corr": 1.176472229668109e-05,
+      "p": 0.22306768049237558,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "month",
+      "strength_corr": 0.0,
+      "p": 0.8811303052361399,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "day_of_week",
+      "strength_corr": 0.0,
+      "p": 0.7225981559390445,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "poutcome",
+      "strength_corr": 0.0001221863522756487,
+      "p": 0.02970876972016974,
+      "bh": true,
+      "floor": false
+    },
+    {
+      "a": "rand_num",
+      "b": "y",
+      "strength_corr": 8.478652014793401e-05,
+      "p": 0.034050155164842714,
+      "bh": true,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "job",
+      "strength_corr": 4.727145500435243e-07,
+      "p": 0.4416561637709733,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "marital",
+      "strength_corr": 0.0,
+      "p": 0.8154288901769764,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "education",
+      "strength_corr": 0.0,
+      "p": 0.5914978630850551,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "default",
+      "strength_corr": 0.0,
+      "p": 0.5388293258448802,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "housing",
+      "strength_corr": 7.0358951691057025e-06,
+      "p": 0.3182664293474923,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "loan",
+      "strength_corr": 0.0,
+      "p": 0.8526428475121866,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "contact",
+      "strength_corr": 0.0,
+      "p": 0.9593041237607393,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "month",
+      "strength_corr": 7.616925444737418e-05,
+      "p": 0.20570982496367893,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "day_of_week",
+      "strength_corr": 2.5452061955347733e-06,
+      "p": 0.3920180470046549,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "poutcome",
+      "strength_corr": 0.0,
+      "p": 0.9716845416532262,
+      "bh": false,
+      "floor": false
+    },
+    {
+      "a": "age_perm",
+      "b": "y",
+      "strength_corr": 0.0,
+      "p": 0.6649145154197047,
+      "bh": false,
+      "floor": false
+    }
+  ],
+  "top15_by_corrected_strength": [
+    {
+      "a": "emp.var.rate",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_corr": 0.9722446711516144,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "euribor3m",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_corr": 0.9451544313982781,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_corr": 0.9069701012560655,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "pdays",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_corr": 0.9067024969401726,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "previous",
+      "b": "poutcome",
+      "method": "eta_squared",
+      "strength_corr": 0.7887701941605139,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "emp.var.rate",
+      "b": "cons.price.idx",
+      "method": "pearson_r",
+      "strength_corr": 0.7753341708350002,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "housing",
+      "b": "loan",
+      "method": "cramers_v",
+      "strength_corr": 0.7078524775105789,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_corr": 0.6882301070376663,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "contact",
+      "b": "month",
+      "method": "cramers_v",
+      "strength_corr": 0.6090867394277258,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "pdays",
+      "b": "previous",
+      "method": "pearson_r",
+      "strength_corr": 0.5875138561368171,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "cons.price.idx",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_corr": 0.5220339770132975,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "previous",
+      "b": "nr.employed",
+      "method": "pearson_r",
+      "strength_corr": 0.5013329290363117,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "previous",
+      "b": "euribor3m",
+      "method": "pearson_r",
+      "strength_corr": 0.4544936536077272,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "previous",
+      "b": "emp.var.rate",
+      "method": "pearson_r",
+      "strength_corr": 0.4204891094133454,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "nr.employed",
+      "b": "month",
+      "method": "eta_squared",
+      "strength_corr": 0.42019484916748884,
+      "p": 0.0,
+      "bh": true
+    }
+  ],
+  "deviations_from_preregistration": [],
+  "run_finished_utc": "2026-10-27T19:06:47.517979+00:00"
+}

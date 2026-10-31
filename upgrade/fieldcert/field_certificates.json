@@ -1,0 +1,238 @@
+{
+  "tau": 0.2,
+  "calibration_source": "probe8_calibration.json (50,000 null pairs/cell, simultaneous CP bounds, Bonferroni over 30 cells, delta=0.05)",
+  "cp_floor_m500": 0.00012793040931153107,
+  "per_pair_contribution_at_field_scale": 1.6366189626615876e-08,
+  "monotonicity_in_m_by_branch": {
+    "cat2x2": true,
+    "cat3x2": true,
+    "cat3x3": true,
+    "num_num": true,
+    "numcat_g2": true,
+    "numcat_g3": true
+  },
+  "all_m500_cells_zero_exceedances": true,
+  "datasets": {
+    "olist": {
+      "family_size_M": 107,
+      "branch_counts": {
+        "num_num": 55,
+        "num_cat": 44,
+        "cat_cat": 8
+      },
+      "numcat_pairs_by_categorical_levels_g": {
+        "2": 11,
+        "4": 11,
+        "7": 11,
+        "27": 11
+      },
+      "catcat_pairs_by_table_dimensions": {
+        "2x27": 1,
+        "2x4": 1,
+        "2x7": 1,
+        "3x3": 1,
+        "3x4": 1,
+        "4x27": 1,
+        "4x7": 1,
+        "7x27": 1
+      },
+      "per_pair_n_values": {
+        "25000": 105,
+        "9378": 2
+      },
+      "half_size_min": 4689,
+      "half_size_max": 12500,
+      "any_half_at_or_below_500": false,
+      "cell_value_used_per_half": 0.00012793040931153107,
+      "cell_used": "m=500 simultaneous CP bound, extrapolated to all larger half sizes (see report for justification and caveats)",
+      "C_U_full_family": 1.7511822900479012e-06,
+      "implied_bounds": {
+        "E[V]_le": 1.7511822900479012e-06,
+        "FWER_le": 1.7511822900479012e-06,
+        "FDR_le": 1.7511822900479012e-06
+      },
+      "text_pairs_in_family": 2,
+      "C_U_excluding_text_pairs_A3_scope": 1.7184499107946693e-06,
+      "negative_control_pairs": 27,
+      "promoted_pairs_observed": 13,
+      "control_pairs_promoted_observed": 0,
+      "known_false_promotions_observed": 0,
+      "note_on_observation": "true H0 unknown on field data; the only known nulls are the negative controls and none was promoted. This is a bound evaluation, not a ground-truth validation."
+    },
+    "telco": {
+      "family_size_M": 231,
+      "branch_counts": {
+        "num_num": 10,
+        "num_cat": 85,
+        "cat_cat": 136
+      },
+      "numcat_pairs_by_categorical_levels_g": {
+        "2": 35,
+        "3": 45,
+        "4": 5
+      },
+      "catcat_pairs_by_table_dimensions": {
+        "2x2": 21,
+        "2x3": 63,
+        "2x4": 7,
+        "3x3": 36,
+        "3x4": 9
+      },
+      "per_pair_n_values": {
+        "7043": 210,
+        "7032": 21
+      },
+      "half_size_min": 3516,
+      "half_size_max": 3522,
+      "any_half_at_or_below_500": false,
+      "cell_value_used_per_half": 0.00012793040931153107,
+      "cell_used": "m=500 simultaneous CP bound, extrapolated to all larger half sizes (see report for justification and caveats)",
+      "C_U_full_family": 3.780589803748278e-06,
+      "implied_bounds": {
+        "E[V]_le": 3.780589803748278e-06,
+        "FWER_le": 3.780589803748278e-06,
+        "FDR_le": 3.780589803748278e-06
+      },
+      "text_pairs_in_family": 0,
+      "C_U_excluding_text_pairs_A3_scope": 3.780589803748278e-06,
+      "negative_control_pairs": 41,
+      "promoted_pairs_observed": 88,
+      "control_pairs_promoted_observed": 0,
+      "known_false_promotions_observed": 0,
+      "note_on_observation": "true H0 unknown on field data; the only known nulls are the negative controls and none was promoted. This is a bound evaluation, not a ground-truth validation."
+    },
+    "bank": {
+      "family_size_M": 253,
+      "branch_counts": {
+        "num_num": 66,
+        "num_cat": 132,
+        "cat_cat": 55
+      },
+      "numcat_pairs_by_categorical_levels_g": {
+        "2": 24,
+        "3": 48,
+        "4": 12,
+        "5": 12,
+        "8": 12,
+        "10": 12,
+        "12": 12
+      },
+      "catcat_pairs_by_table_dimensions": {
+        "10x12": 1,
+        "2x10": 2,
+        "2x12": 2,
+        "2x2": 1,
+        "2x3": 8,
+        "2x4": 2,
+        "2x5": 2,
+        "2x8": 2,
+        "3x10": 4,
+        "3x12": 4,
+        "3x3": 6,
+        "3x4": 4,
+        "3x5": 4,
+        "3x8": 4,
+        "4x10": 1,
+        "4x12": 1,
+        "4x5": 1,
+        "4x8": 1,
+        "5x10": 1,
+        "5x12": 1,
+        "5x8": 1,
+        "8x10": 1,
+        "8x12": 1
+      },
+      "per_pair_n_values": {
+        "41188": 253
+      },
+      "half_size_min": 20594,
+      "half_size_max": 20594,
+      "any_half_at_or_below_500": false,
+      "cell_value_used_per_half": 0.00012793040931153107,
+      "cell_used": "m=500 simultaneous CP bound, extrapolated to all larger half sizes (see report for justification and caveats)",
+      "C_U_full_family": 4.140645975533828e-06,
+      "implied_bounds": {
+        "E[V]_le": 4.140645975533828e-06,
+        "FWER_le": 4.140645975533828e-06,
+        "FDR_le": 4.140645975533828e-06
+      },
+      "text_pairs_in_family": 0,
+      "C_U_excluding_text_pairs_A3_scope": 4.140645975533828e-06,
+      "negative_control_pairs": 43,
+      "promoted_pairs_observed": 33,
+      "control_pairs_promoted_observed": 0,
+      "known_false_promotions_observed": 0,
+      "note_on_observation": "true H0 unknown on field data; the only known nulls are the negative controls and none was promoted. This is a bound evaluation, not a ground-truth validation."
+    }
+  },
+  "olist_small_n_contrast": {
+    "60": {
+      "total_n_per_pair": 60,
+      "half_m": 30,
+      "envelope_cell_values": {
+        "num_num": 0.2946637948303752,
+        "num_cat": 0.01968899833511809,
+        "cat_cat": 0.22277794771452872
+      },
+      "C_U_envelope": 5.189568363853611,
+      "C_U_dimension_matched": 5.171456744134003,
+      "implied_bounds_envelope": {
+        "E[V]_le": 5.189568363853611,
+        "FWER_le": 1.0,
+        "FDR_le": 1.0
+      },
+      "extrapolation_needed": false
+    },
+    "100": {
+      "total_n_per_pair": 100,
+      "half_m": 50,
+      "envelope_cell_values": {
+        "num_num": 0.16905292590468124,
+        "num_cat": 0.0023840458049596,
+        "cat_cat": 0.1418312728599039
+      },
+      "C_U_envelope": 1.733018007993441,
+      "C_U_dimension_matched": 1.7228106372179972,
+      "implied_bounds_envelope": {
+        "E[V]_le": 1.733018007993441,
+        "FWER_le": 1.0,
+        "FDR_le": 1.0
+      },
+      "extrapolation_needed": false
+    },
+    "500": {
+      "total_n_per_pair": 500,
+      "half_m": 250,
+      "envelope_cell_values": {
+        "num_num": 0.002430210292929361,
+        "num_cat": 0.00012793040931153107,
+        "cat_cat": 0.0032287256079272246
+      },
+      "C_U_envelope": 0.00040894317848614084,
+      "C_U_dimension_matched": 0.0003986175550723431,
+      "implied_bounds_envelope": {
+        "E[V]_le": 0.00040894317848614084,
+        "FWER_le": 0.00040894317848614084,
+        "FDR_le": 0.00040894317848614084
+      },
+      "extrapolation_needed": false
+    },
+    "1000": {
+      "total_n_per_pair": 1000,
+      "half_m": 500,
+      "envelope_cell_values": {
+        "num_num": 0.00012793040931153107,
+        "num_cat": 0.00012793040931153107,
+        "cat_cat": 0.00012793040931153107
+      },
+      "C_U_envelope": 1.7511822900478986e-06,
+      "C_U_dimension_matched": 1.751182290047899e-06,
+      "implied_bounds_envelope": {
+        "E[V]_le": 1.7511822900478986e-06,
+        "FWER_le": 1.7511822900478986e-06,
+        "FDR_le": 1.7511822900478986e-06
+      },
+      "extrapolation_needed": false
+    }
+  }
+}

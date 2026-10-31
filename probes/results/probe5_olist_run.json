@@ -1,0 +1,342 @@
+{
+  "analysis_rows_full": 95823,
+  "analysis_rows_used": 25000,
+  "commented_subset_rows": 9378,
+  "family_pairs": 107,
+  "bh_rejections": 69,
+  "bh_and_floor": 13,
+  "promoted_final": [
+    {
+      "a": "price_total",
+      "b": "freight_total",
+      "method": "pearson_r",
+      "strength_raw": 0.4270123008454807,
+      "strength_corr": 0.4270123008454807,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "price_total",
+      "b": "payment_value",
+      "method": "pearson_r",
+      "strength_raw": 0.9965143916346363,
+      "strength_corr": 0.9965143916346363,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "price_total",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_raw": 0.309238789955342,
+      "strength_corr": 0.309238789955342,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "freight_total",
+      "b": "payment_value",
+      "method": "pearson_r",
+      "strength_raw": 0.4996713437808443,
+      "strength_corr": 0.4996713437808443,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "freight_total",
+      "b": "n_items",
+      "method": "pearson_r",
+      "strength_raw": 0.4343406761064419,
+      "strength_corr": 0.4343406761064419,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "freight_total",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_raw": 0.20367954640112176,
+      "strength_corr": 0.20367954640112176,
+      "p": 2.4913309248845933e-232,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "payment_value",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_raw": 0.3152635269322047,
+      "strength_corr": 0.3152635269322047,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "review_score",
+      "b": "delivery_days",
+      "method": "pearson_r",
+      "strength_raw": 0.33311084691570997,
+      "strength_corr": 0.33311084691570997,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 0.0
+    },
+    {
+      "a": "review_score",
+      "b": "delay_days",
+      "method": "pearson_r",
+      "strength_raw": 0.2684149429344048,
+      "strength_corr": 0.2684149429344048,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 0.0
+    },
+    {
+      "a": "review_score",
+      "b": "comment_len",
+      "method": "pearson_r",
+      "strength_raw": 0.36874789135467057,
+      "strength_corr": 0.36874789135467057,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 0.0
+    },
+    {
+      "a": "delivery_days",
+      "b": "delay_days",
+      "method": "pearson_r",
+      "strength_raw": 0.5840360653985686,
+      "strength_corr": 0.5840360653985686,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "comment_len",
+      "b": "has_comment",
+      "method": "eta_squared",
+      "strength_raw": 0.5422090215983406,
+      "strength_corr": 0.5421807794810548,
+      "p": 0.0,
+      "n": 25000.0,
+      "text_pair": NaN,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    },
+    {
+      "a": "text_tfidf",
+      "b": "review_band",
+      "method": "cramers_v",
+      "strength_raw": 0.4129090166275437,
+      "strength_corr": 0.41269467491307393,
+      "p": 0.0,
+      "n": 9378.0,
+      "text_pair": 1.0,
+      "bh": 1.0,
+      "floor": 1.0,
+      "splithalf": 1.0,
+      "persistence_share_orig_rule": 1.0
+    }
+  ],
+  "promoted_but_splithalf_failed": [],
+  "control_pairs_promoted": 0,
+  "top15_by_corrected_strength": [
+    {
+      "a": "price_total",
+      "b": "payment_value",
+      "method": "pearson_r",
+      "strength_corr": 0.9965143916346363,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "delivery_days",
+      "b": "delay_days",
+      "method": "pearson_r",
+      "strength_corr": 0.5840360653985686,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "comment_len",
+      "b": "has_comment",
+      "method": "eta_squared",
+      "strength_corr": 0.5421807794810548,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "freight_total",
+      "b": "payment_value",
+      "method": "pearson_r",
+      "strength_corr": 0.4996713437808443,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "freight_total",
+      "b": "n_items",
+      "method": "pearson_r",
+      "strength_corr": 0.4343406761064419,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "price_total",
+      "b": "freight_total",
+      "method": "pearson_r",
+      "strength_corr": 0.4270123008454807,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "text_tfidf",
+      "b": "review_band",
+      "method": "cramers_v",
+      "strength_corr": 0.41269467491307393,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "review_score",
+      "b": "comment_len",
+      "method": "pearson_r",
+      "strength_corr": 0.36874789135467057,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "review_score",
+      "b": "delivery_days",
+      "method": "pearson_r",
+      "strength_corr": 0.33311084691570997,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "payment_value",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_corr": 0.3152635269322047,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "price_total",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_corr": 0.309238789955342,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "review_score",
+      "b": "delay_days",
+      "method": "pearson_r",
+      "strength_corr": 0.2684149429344048,
+      "p": 0.0,
+      "bh": true
+    },
+    {
+      "a": "freight_total",
+      "b": "installments_max",
+      "method": "pearson_r",
+      "strength_corr": 0.20367954640112176,
+      "p": 2.4913309248845933e-232,
+      "bh": true
+    },
+    {
+      "a": "payment_value",
+      "b": "n_items",
+      "method": "pearson_r",
+      "strength_corr": 0.19864299987582595,
+      "p": 7.422964002668086e-221,
+      "bh": true
+    },
+    {
+      "a": "delivery_days",
+      "b": "customer_state",
+      "method": "eta_squared",
+      "strength_corr": 0.17892560072652575,
+      "p": 0.0,
+      "bh": true
+    }
+  ],
+  "text_pairs_both_reductions": [
+    {
+      "a": "text_tfidf",
+      "b": "review_band",
+      "strength_corr": 0.41269467491307393,
+      "p": 0.0
+    },
+    {
+      "a": "text_tfidf",
+      "b": "payment_type",
+      "strength_corr": 0.0,
+      "p": 0.7136687796553483
+    },
+    {
+      "a": "text_hash",
+      "b": "review_band",
+      "strength_corr": 0.27433874416710435,
+      "p": 3.3117883475688435e-305
+    },
+    {
+      "a": "text_hash",
+      "b": "payment_type",
+      "strength_corr": 0.013175272061873739,
+      "p": 0.1596970828611029
+    }
+  ]
+}

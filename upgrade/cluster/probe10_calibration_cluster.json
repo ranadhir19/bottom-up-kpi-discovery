@@ -1,0 +1,194 @@
+{
+  "tau": 0.2,
+  "reps_per_cell": 50000,
+  "delta": 0.05,
+  "numeric_model": "X = a_c + e, a~N(0,1), e~N(0,1), ICC=0.5",
+  "categorical_model": "per-cluster p ~ Dirichlet(3 * balanced), rows ~ p_cluster",
+  "note": "gamma^cl is the per-half exceedance probability Pr[S_h >= tau] under the clustered null at the half's cluster count. Simultaneous bounds are Clopper-Pearson at per-cell level 1 - delta/6 (Bonferroni over the design's 6 cells); each design is a separate 0.95-simultaneous certificate.",
+  "pair_counts_by_cell": {
+    "num_num": 276,
+    "numcat_g3": 192,
+    "numcat_g2": 192,
+    "cat3x3": 28,
+    "cat3x2": 64,
+    "cat2x2": 28
+  },
+  "designs": {
+    "P_primary_20x10": {
+      "K_total": 20,
+      "cluster_size": 10,
+      "K_half": 10,
+      "cells": [
+        {
+          "branch": "num_num",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 13178,
+          "gamma_hat_cl": 0.26356,
+          "cp95_upper": 0.2668208825866512,
+          "cp_simultaneous_upper": 0.2683063256551229,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 910000
+        },
+        {
+          "branch": "cat3x3",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 4906,
+          "gamma_hat_cl": 0.09812,
+          "cp95_upper": 0.10033551851103804,
+          "cp_simultaneous_upper": 0.10134837096223552,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 917919
+        },
+        {
+          "branch": "cat2x2",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 3575,
+          "gamma_hat_cl": 0.0715,
+          "cp95_upper": 0.07342379143624422,
+          "cp_simultaneous_upper": 0.07430435492700592,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 925838
+        },
+        {
+          "branch": "cat3x2",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 7158,
+          "gamma_hat_cl": 0.14316,
+          "cp95_upper": 0.14576164462921176,
+          "cp_simultaneous_upper": 0.146949391486533,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 933757
+        },
+        {
+          "branch": "numcat_g3",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 127,
+          "gamma_hat_cl": 0.00254,
+          "cp95_upper": 0.002942613043580923,
+          "cp_simultaneous_upper": 0.0031321355252852063,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 941676
+        },
+        {
+          "branch": "numcat_g2",
+          "K_half": 10,
+          "cluster_size": 10,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 35,
+          "gamma_hat_cl": 0.0007,
+          "cp95_upper": 0.000927976854628388,
+          "cp_simultaneous_upper": 0.0010382842759549633,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 949595
+        }
+      ],
+      "certificate_point": 20.897742142400002,
+      "certificate_simultaneous_upper": 21.695074584616066,
+      "certificate_point_delta_se": 0.28820655761317093
+    },
+    "S_sens_40x5": {
+      "K_total": 40,
+      "cluster_size": 5,
+      "K_half": 20,
+      "cells": [
+        {
+          "branch": "num_num",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 7872,
+          "gamma_hat_cl": 0.15744,
+          "cp95_upper": 0.16014385436142964,
+          "cp_simultaneous_upper": 0.16137784795558266,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 920000
+        },
+        {
+          "branch": "cat3x3",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 2358,
+          "gamma_hat_cl": 0.04716,
+          "cp95_upper": 0.04874889015025556,
+          "cp_simultaneous_upper": 0.04947746090509991,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 927919
+        },
+        {
+          "branch": "cat2x2",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 2360,
+          "gamma_hat_cl": 0.0472,
+          "cp95_upper": 0.048789516719515806,
+          "cp_simultaneous_upper": 0.04951837194843508,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 935838
+        },
+        {
+          "branch": "cat3x2",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 4709,
+          "gamma_hat_cl": 0.09418,
+          "cp95_upper": 0.09635598538806188,
+          "cp_simultaneous_upper": 0.09735091762221401,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 943757
+        },
+        {
+          "branch": "numcat_g3",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 16,
+          "gamma_hat_cl": 0.00032,
+          "cp95_upper": 0.0004859833272191274,
+          "cp_simultaneous_upper": 0.0005683159652324568,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 951676
+        },
+        {
+          "branch": "numcat_g2",
+          "K_half": 20,
+          "cluster_size": 5,
+          "half_rows": 100,
+          "reps": 50000,
+          "exceedances": 6,
+          "gamma_hat_cl": 0.00012,
+          "cp95_upper": 0.0002368340756274264,
+          "cp_simultaneous_upper": 0.00029719380965608573,
+          "alpha_simultaneous_per_cell": 0.008333333333333333,
+          "seed": 959595
+        }
+      ],
+      "certificate_point": 7.5336572096,
+      "certificate_simultaneous_upper": 7.931637825461609,
+      "certificate_point_delta_se": 0.14247279745323663
+    }
+  }
+}

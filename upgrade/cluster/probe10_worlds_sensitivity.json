@@ -1,0 +1,196 @@
+{
+  "design": "S: 40 clusters x 5 rows, n=200, ICC 0.5 numeric / Dirichlet(3*balanced) categorical; halves of 20 clusters x 5 rows (100 rows, as design P)",
+  "worlds": 50,
+  "pairs_per_world": 780,
+  "data_seed_base": 960000,
+  "clustersplit_seed_base": 970000,
+  "cluster_level_split": {
+    "per_world_false": [
+      0,
+      2,
+      0,
+      1,
+      0,
+      0,
+      7,
+      1,
+      0,
+      7,
+      0,
+      3,
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      5,
+      2,
+      1,
+      5,
+      1,
+      3,
+      5,
+      4,
+      3,
+      2,
+      2,
+      0,
+      2,
+      0,
+      0,
+      1,
+      1,
+      2,
+      3,
+      3,
+      2,
+      4,
+      3,
+      1,
+      2,
+      0,
+      2,
+      1,
+      0,
+      2,
+      2,
+      2
+    ],
+    "mean_false": 2.0,
+    "mean_false_se": 0.2457807219155036,
+    "fwer": 0.78,
+    "fwer_se": 0.05858327406350723,
+    "fdr_equals_fwer_in_all_null": true,
+    "per_world_p3_only": [
+      6,
+      11,
+      6,
+      5,
+      4,
+      7,
+      16,
+      5,
+      8,
+      9,
+      4,
+      5,
+      9,
+      6,
+      9,
+      6,
+      9,
+      9,
+      8,
+      4,
+      4,
+      6,
+      6,
+      14,
+      9,
+      9,
+      10,
+      6,
+      7,
+      7,
+      8,
+      3,
+      2,
+      8,
+      7,
+      5,
+      9,
+      11,
+      4,
+      8,
+      4,
+      5,
+      10,
+      6,
+      3,
+      2,
+      6,
+      11,
+      7,
+      9
+    ],
+    "mean_p3_only": 7.04,
+    "p3_mean_se": 0.40502960335244226,
+    "half_exceedance_by_cell": {
+      "cat2x2": {
+        "exceedances": 129,
+        "evals": 2800,
+        "rate": 0.04607142857142857
+      },
+      "cat3x2": {
+        "exceedances": 647,
+        "evals": 6400,
+        "rate": 0.10109375
+      },
+      "cat3x3": {
+        "exceedances": 132,
+        "evals": 2800,
+        "rate": 0.047142857142857146
+      },
+      "num_num": {
+        "exceedances": 4318,
+        "evals": 27600,
+        "rate": 0.15644927536231884
+      },
+      "numcat_g2": {
+        "exceedances": 4,
+        "evals": 19200,
+        "rate": 0.00020833333333333335
+      },
+      "numcat_g3": {
+        "exceedances": 9,
+        "evals": 19200,
+        "rate": 0.00046875
+      }
+    },
+    "independence_prediction_P3_from_world_marginals": 7.531267507763975,
+    "dependence_factor_p3_over_independence_prediction": 0.9347696111899455
+  },
+  "cluster_split_vs_cluster_certificate": {
+    "point_prediction_sum_gamma_cl_sq": 7.5336572096,
+    "point_prediction_delta_se_calibration": 0.14247279745323663,
+    "certificate_CclU_simultaneous": 7.931637825461609,
+    "certificate_FWER_FDR_upper": 1.0,
+    "p3_minus_point_in_combined_se": -1.1497591758765422,
+    "p3_le_certificate": true,
+    "p3_excess_over_certificate_in_world_se": -2.2014139659953136,
+    "conjoint_le_certificate": true,
+    "conjoint_excess_over_certificate_in_world_se": -24.133861188270224
+  },
+  "iid_certificate_contrast": {
+    "certificate_point_iid_n200": 0.752698248,
+    "certificate_simultaneous_upper_iid_n200": 0.8489811480979644,
+    "per_branch": {
+      "num_num": {
+        "gamma_hat_iid": 0.04526,
+        "gammaU_sim_iid": 0.04805440449087684
+      },
+      "cat3x3": {
+        "gamma_hat_iid": 0.018,
+        "gammaU_sim_iid": 0.019814700574986903
+      },
+      "cat2x2": {
+        "gamma_hat_iid": 0.02424,
+        "gammaU_sim_iid": 0.026327364889872786
+      },
+      "cat3x2": {
+        "gamma_hat_iid": 0.05028,
+        "gammaU_sim_iid": 0.05321352552847657
+      },
+      "numcat_g3": {
+        "gamma_hat_iid": 0.0,
+        "gammaU_sim_iid": 0.00012793040931153107
+      },
+      "numcat_g2": {
+        "gamma_hat_iid": 0.0,
+        "gammaU_sim_iid": 0.00012793040931153107
+      }
+    },
+    "source": "probe8_calibration.json (cycle 1), total_n=200 cells, 50,000 i.i.d. null pairs per cell"
+  }
+}
